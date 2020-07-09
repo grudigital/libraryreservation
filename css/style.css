@@ -1,0 +1,43 @@
+.container {
+  max-width: 960px;
+}
+
+.logotipo img{
+  width: 300px;
+}
+
+.textos-topo {
+  margin-top: 30px;
+}
+
+bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.invalid-feedback{
+  width: 100%;
+}
+
+.lh-condensed {
+  line-height: 1.25;
+}
+
+.rodape-reservas{
+  float: left;
+  width: 100%;
+}
+
+.texto-rodape{
+  text-align: center;
+  margin-top: 20px;
+}
