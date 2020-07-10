@@ -48,9 +48,9 @@ if ($_SESSION['usuarioNome'] == '') {
                 </div>
 
                 <div class="container bloco-botoes">
-                <div class="row">
-                    <div class="col"><button class="btn btn-primary btn-lg btn-block" name="submit" type="submit">Export data</button></div>
-                </div>
+                    <div class="row">
+                        <div class="col"><button class="btn btn-primary btn-lg btn-block" name="submit" type="submit">Export data</button></div>
+                    </div>
                 </div>
 
                 <table class="table">
@@ -68,11 +68,10 @@ if ($_SESSION['usuarioNome'] == '') {
 
                     <?php
                     require ("functions/conn.php");
-                    $sql = "select * FROM reservas where cadastroem = curdate()";
+                    $sql = "select * FROM reservas order by cadastroem desc";
                     $result = mysqli_query($conn, $sql);
                     while($row = mysqli_fetch_assoc($result))
                     {
-
                         echo "<tr>";
                         echo "<th scope='row'>$row[id]</th>";
                         echo "<td>$row[nome]</td>";
@@ -84,14 +83,8 @@ if ($_SESSION['usuarioNome'] == '') {
 
                     }
                     ?>
-
                     </tbody>
                 </table>
-
-
-
-
-
             </form>
         </div>
     </div>

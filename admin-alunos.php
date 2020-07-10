@@ -29,7 +29,6 @@ if ($_SESSION['usuarioNome'] == '') {
         <div class="col-md-12 order-md-1">
             <h4 class="mb-3">Management Panel - Welcome <?php echo"$_SESSION[usuarioNome]"?> - <a href="functions/sair.php">Logout</a></h4>
             <hr class="mb-4">
-            <form action="functions/valida.php" enctype="multipart/form-data" method="post">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm">
@@ -48,9 +47,10 @@ if ($_SESSION['usuarioNome'] == '') {
                 </div>
 
                 <div class="container bloco-botoes">
-                <div class="row">
-                    <div class="col"><button class="btn btn-primary btn-lg btn-block" name="submit" type="submit">Export data</button></div>
-                </div>
+                    <div class="row">
+                        <div class="col"><button class="btn btn-primary btn-lg btn-block" name="submit" type="submit">Export data</button></div>
+                        <div class="col"><a href="admin-alunos-adicionar.php"><button class="btn btn-secondary btn-lg btn-block" name="submit" type="submit">Add</button></a></div>
+                    </div>
                 </div>
 
                 <table class="table">
@@ -59,16 +59,15 @@ if ($_SESSION['usuarioNome'] == '') {
                         <th scope="col">#</th>
                         <th scope="col">Name</th>
                         <th scope="col">Surname</th>
-                        <th scope="col">Date</th>
-                        <th scope="col">Period</th>
-                        <th scope="col">Scheduled on</th>
+                        <th scope="col">Delete</th>
                     </tr>
                     </thead>
                     <tbody>
 
                     <?php
                     require ("functions/conn.php");
-                    $sql = "select * FROM reservas where cadastroem = curdate()";
+
+                    $sql = "select * FROM usuarios";
                     $result = mysqli_query($conn, $sql);
                     while($row = mysqli_fetch_assoc($result))
                     {
@@ -77,9 +76,7 @@ if ($_SESSION['usuarioNome'] == '') {
                         echo "<th scope='row'>$row[id]</th>";
                         echo "<td>$row[nome]</td>";
                         echo "<td>$row[sobrenome]</td>";
-                        echo "<td>$row[data]</td>";
-                        echo "<td>$row[periodo]</td>";
-                        echo "<td>$row[cadastroem]</td>";
+                        echo "<td><a href='functions/alunos-excluir.php?id=$row[id]'><button class='btn btn-danger btn-lg btn-block botao-excluir' >X</button></a></td>";
                         echo "</tr>";
 
                     }
@@ -87,12 +84,6 @@ if ($_SESSION['usuarioNome'] == '') {
 
                     </tbody>
                 </table>
-
-
-
-
-
-            </form>
         </div>
     </div>
     <section class="rodape-reservas">

@@ -6,7 +6,7 @@ if (!mysqli_query($conn,$sql))
 {
     die('Error: ' . mysqli_error($conn));
 }
-echo "<meta http-equiv='refresh' content=0;url='../index.php'>";
+echo "<meta http-equiv='refresh' content=0;url='../_index.php'>";
 mysqli_close($conn);
 ?>
 
