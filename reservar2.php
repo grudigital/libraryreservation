@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -94,13 +94,17 @@
                 echo "<h4 class='mb-3'>Period</h4>";
                 echo "<div class='d-block my-3'>";
                     echo "<div class='form-check'>";
-                        echo "<input class='form-check-input' type='radio' name='periodo' id='exampleRadios1' value='manha' checked>";
+                        echo "<input class='form-check-input' type='radio' name='periodo' id='exampleRadios1' value='morning' checked>";
                         echo "<label class='form-check-label' for='exampleRadios1'>Morning (9:00-12:00)</label>";
                         echo "</div>";
                     echo "<div class='form-check'>";
-                        echo "<input class='form-check-input' type='radio' name='periodo' id='exampleRadios2' value='tarde'>";
+                        echo "<input class='form-check-input' type='radio' name='periodo' id='exampleRadios2' value='afternoon'>";
                         echo "<label class='form-check-label' for='exampleRadios2'>Afternoon (13:00-17:00)</label>";
                         echo "</div>";
+                    echo "<div class='form-check'>";
+                    echo "<input class='form-check-input' type='radio' name='periodo' id='exampleRadios2' value='day'>";
+                    echo "<label class='form-check-label' for='exampleRadios2'>Day (09:00-17:00)</label>";
+                    echo "</div>";
                     echo "<div class='custom-control custom-radio'>";
                         echo "<hr class='mb-4'>";
                         echo "<button class='btn btn-primary btn-lg btn-block' type='submit'>Reserve</button>";
