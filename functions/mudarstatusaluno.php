@@ -1,7 +1,9 @@
 <?php
-require ("conn.php");
+$id = intval($_REQUEST['id']);
 
-$sql="INSERT INTO usuarios (codigo,nome,sobrenome,aceite,cadastroem) VALUES ('$_POST[codigo]','$_POST[nome]','$_POST[sobrenome]','$_POST[aceite]',now())";
+
+require("conn.php");
+$sql = "update usuarios set aceite='2' where id=$id";
 if (!mysqli_query($conn,$sql))
 {
     die('Error: ' . mysqli_error($conn));
@@ -9,5 +11,3 @@ if (!mysqli_query($conn,$sql))
 echo "<meta http-equiv='refresh' content=0;url='../admin-alunos.php'>";
 mysqli_close($conn);
 ?>
-
-

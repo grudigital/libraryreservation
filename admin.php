@@ -29,7 +29,6 @@ if ($_SESSION['usuarioNome'] == '') {
         <div class="col-md-12 order-md-1">
             <h4 class="mb-3">Management Panel - Welcome <?php echo"$_SESSION[usuarioNome]"?> - <a href="functions/sair.php">Logout</a></h4>
             <hr class="mb-4">
-            <form action="functions/valida.php" enctype="multipart/form-data" method="post">
                 <div class="container">
                     <div class="row">
                         <div class="col-sm">
@@ -49,7 +48,7 @@ if ($_SESSION['usuarioNome'] == '') {
 
                 <div class="container bloco-botoes">
                 <div class="row">
-                    <div class="col"><button class="btn btn-primary btn-lg btn-block" name="submit" type="submit">Export data</button></div>
+                    <div class="col"><a href="functions/relatoriododia.php"><button class="btn btn-primary btn-lg btn-block" name="submit" type="submit">Export data</button></a></div>
                 </div>
                 </div>
 
@@ -92,7 +91,6 @@ if ($_SESSION['usuarioNome'] == '') {
 
 
 
-            </form>
         </div>
     </div>
     <section class="rodape-reservas">

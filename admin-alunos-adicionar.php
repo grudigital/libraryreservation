@@ -68,10 +68,19 @@ if ($_SESSION['usuarioNome'] == '') {
                     </div>
                     <input type="text" class="form-control" placeholder="Surname" aria-label="Surname" name="sobrenome" aria-describedby="basic-addon1">
                 </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Conduct Manual</span>
+                    </div>
+                    <select type="select" name="aceite" class="form-control" aria-label="aceite" id="aceite" aria-describedby="basic-addon1">
+                        <option value="1">Signed</option>
+                        <option value="2">Didn´t Sign</option>
+                    </select>
+                </div>
 
                 <button class="btn btn-primary btn-lg btn-block" name="submit" type="submit">Save</button>
             </form>
-        </div>
+        </div>t
     </div>
     <section class="rodape-reservas">
         <p class="texto-rodape">&copy; 2020 Kunsthistorische Institut in Florenz</p>
