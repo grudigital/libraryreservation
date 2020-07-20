@@ -18,11 +18,6 @@ if ($_SESSION['usuarioNome'] == '') {
 <div class="container">
     <div class="py-5 text-center logotipo">
         <img class="d-block mx-auto mb-4" src="img/logo.png" alt="">
-        <div class="textos-topo">
-            <hr class="mb-4">
-            <h2>Library Reservation</h2>
-            <p class="lead">Please, submit your booking request filling out the form below:</p>
-        </div>
     </div>
     <div class="row">
 
@@ -67,7 +62,7 @@ if ($_SESSION['usuarioNome'] == '') {
 
                     <?php
                     require ("functions/conn.php");
-                    $sql = "select * FROM reservas where cadastroem = curdate()";
+                    $sql = "select * FROM reservas where data = curdate()";
                     $result = mysqli_query($conn, $sql);
                     while($row = mysqli_fetch_assoc($result))
                     {

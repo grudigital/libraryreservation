@@ -49,21 +49,14 @@
             <ul class="list-group mb-3">
                 <li class="list-group-item d-flex justify-content-between lh-condensed">
                     <div>
-                        <h6 class="my-0">Mail</h6>
-                        <small class="text-muted">contact@exemple.com</small>
+                        <h6 class="my-0">E-Mail</h6>
+                        <small class="text-muted">info@khi.fi.it</small>
                     </div>
                 </li>
                 <li class="list-group-item d-flex justify-content-between lh-condensed">
                     <div>
                         <h6 class="my-0">Telephone</h6>
-                        <small class="text-muted">+352 1234-4321</small>
-                    </div>
-                    <span class="text-muted"></span>
-                </li>
-                <li class="list-group-item d-flex justify-content-between lh-condensed">
-                    <div>
-                        <h6 class="my-0">WhatsApp</h6>
-                        <small class="text-muted">+351 98888-1212</small>
+                        <small class="text-muted">+39 055 24911-1</small>
                     </div>
                     <span class="text-muted"></span>
                 </li>
@@ -85,7 +78,7 @@
 
                 if ($num_rows == 0) {
                     echo "<div class='alert alert-primary' role='alert'>";
-                    echo "Code not registered. Contact the university secretary.";
+                    echo "Card number \"".$pegaid."\" not registered. Contact the KHI.";
                     echo "</div>";
                 } else {
 
@@ -134,7 +127,7 @@
                     echo "</div>";
                     echo "<div class='form-check'>";
                     echo "<input class='form-check-input' type='radio' name='periodo' id='exampleRadios2' value='day'>";
-                    echo "<label class='form-check-label' for='exampleRadios2'>Day (09:00-17:00)</label>";
+                    echo "<label class='form-check-label' for='exampleRadios2'>Whole Day (09:00-17:00)</label>";
                     echo "</div>";
                     echo "<div class='custom-control custom-radio'>";
                     echo "<hr class='mb-4'>";

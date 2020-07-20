@@ -12,11 +12,6 @@
 <div class="container">
     <div class="py-5 text-center logotipo">
         <img class="d-block mx-auto mb-4" src="img/logo.png" alt="">
-        <div class="textos-topo">
-            <hr class="mb-4">
-            <h2>Library Reservation</h2>
-            <p class="lead">Please, submit your booking request filling out the form below:</p>
-        </div>
     </div>
     <div class="row">
 

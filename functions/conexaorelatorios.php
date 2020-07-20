@@ -35,8 +35,8 @@ class Conexao {
     public function conectar() {
         try {
             $this->pdo = new PDO("mysql:host=localhost;dbname=libraryreservation",
-                "root",
-                "",
+                "test",
+                "test",
                 array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
         } catch (PDOException $e) {
             print "Error!: " . $e->getMessage() . "<br/>";

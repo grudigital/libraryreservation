@@ -1,7 +1,7 @@
 <?php
 $servidor = "localhost";
-$usuario = "root";
-$senha = "";
+$usuario = "grudigital";
+$senha = "grudigital";
 $dbname = "libraryreservation";
 
 //$servidor = "localhost";
