@@ -2,12 +2,16 @@
 $codigo = $_REQUEST['codigo'];
 require ("conn.php");
 
-$sql="Select * from reservas where codigo = $_POST[codigo]";
-if (!mysqli_query($conn,$sql))
-{
-    die('Error: ' . mysqli_error($conn));
+$sql="select * from reservas where codigo = $_POST[codigo]";
+$resultados = mysqli_query($conn, $sql);
+$num_rows = mysqli_num_rows($resultados);
+
+if($num_rows = 0){
+    echo "<meta http-equiv='refresh' content=0;url='../cancelreservationnaoexiste.php?codigo=$codigo'>";
+} else{
+    echo "<meta http-equiv='refresh' content=0;url='../cancelreservation.php?codigo=$codigo'>";
 }
-echo "<meta http-equiv='refresh' content=0;url='../cancelreservation.php?codigo=$codigo'>";
+
 mysqli_close($conn);
 ?>
 

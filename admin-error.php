@@ -34,7 +34,7 @@
                     </div>
                     <div class="col-md-6 mb-3">
                         <label for="lastName">Password</label>
-                        <input type="text" name="senha" class="form-control" id="lastName" placeholder="" value="" required>
+                        <input type="password" name="senha" class="form-control" id="lastName" placeholder="" value="" required>
                         <div class="invalid-feedback">
                             Valid last name is required.
                         </div>
@@ -44,7 +44,7 @@
                 <div class="d-block my-3">
                     <div class="custom-control custom-radio">
                         <hr class="mb-4">
-                        <button class="btn btn-primary btn-lg btn-block" type="submit">Reserve</button>
+                        <button class="btn btn-primary btn-lg btn-block" type="submit">Log in</button>
                     </div>
                 </div>
             </form>

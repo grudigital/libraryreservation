@@ -13,7 +13,7 @@ if (!mysqli_query($conn,$sql))
 {
     die('Error: ' . mysqli_error($conn));
 }
-echo "<meta http-equiv='refresh' content=0;url='../reservar.php'>";
+echo "<meta http-equiv='refresh' content=0;url='../reservaconfirmada.php'>";
 mysqli_close($conn);
 ?>
 

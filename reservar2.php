@@ -7,6 +7,10 @@
     <title>Library Reservation</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.css">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.js"></script>
+
 </head>
 <body class="bg-light">
 <div class="container">
@@ -39,7 +43,7 @@
                 </li>
             </ul>
             <h4 class="d-flex justify-content-between align-items-center mb-3">
-                <span class="text-muted">Contact Information</span>
+                <span class="text-muted">Contact KHI</span>
                 <span class="badge badge-secondary badge-pill">i</span>
             </h4>
             <ul class="list-group mb-3">
@@ -67,6 +71,7 @@
         </div>
         <div class="col-md-8 order-md-1">
             <h4 class="mb-3">Personal Data</h4>
+
             <form action="functions/gravar2.php" enctype="multipart/form-data" method="post" class="needs-validation"
                   novalidate>
 
@@ -76,6 +81,13 @@
                 $pegaid = (int)$_GET['id'];
                 $sql = "select * FROM usuarios where codigo = '$pegaid'";
                 $result = mysqli_query($conn, $sql);
+                $num_rows = mysqli_num_rows($result);
+
+                if ($num_rows == 0) {
+                    echo "<div class='alert alert-primary' role='alert'>";
+                    echo "Code not registered. Contact the university secretary.";
+                    echo "</div>";
+                } else {
 
                 while ($row = mysqli_fetch_assoc($result)) {
                     echo "<div class='mb-3'>";
@@ -102,12 +114,12 @@
                     echo "</div>";
                     echo "<div class='mb-3'>";
                     echo "<label for='email'>Mail <span class='text-muted'></span></label>";
-                    echo "<input type='email' name='email' value='email' class='form-control' id='email'>";
+                    echo "<input type='email' name='email' placeholder='name@mail.com' class='form-control' id='email'>";
                     echo "<div class='invalid-feedback'>Please enter a valid email address for shipping updates.</div>";
                     echo "</div>";
                     echo "<div class='mb-3'>";
                     echo "<label for='address'>Date</label>";
-                    echo "<input type='date' name='data' class='form-control' id='address' placeholder='mm/dd/yyyy' required>";
+                    echo "<input type='text' name='data' class='form-control datepicker' autocomplete='off' required>";
                     echo "<div class='invalid-feedback'>Please enter your date.</div>";
                     echo "</div>";
                     echo "<h4 class='mb-3'>Period</h4>";
@@ -130,6 +142,8 @@
                     echo "</div>";
                     echo "</div>";
                 }
+                }
+
                 mysqli_close($conn);
                 ?>
                 <?php
@@ -152,8 +166,15 @@
         <p class="texto-rodape">&copy; 2020 Kunsthistorische Institut in Florenz</p>
     </section>
 </div>
+<script type="text/javascript">
+    $('.datepicker').datepicker({
+        format: 'yyyy/mm/dd',
+        daysOfWeekDisabled: [0,6]
+    });
+</script>
 <script src="js/jquery-3.5.1.slim.min.js"></script>
 <script src="js/popper.js"></script>
+<script src="js/scripts.js"></script>
 <script src="js/bootstrap.bundle.js"></script>
 <script src="js/form-validation.js"></script>
 </body>

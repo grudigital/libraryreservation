@@ -45,7 +45,7 @@
                 </li>
             </ul>
             <h4 class="d-flex justify-content-between align-items-center mb-3">
-                <span class="text-muted">Contact Information</span>
+                <span class="text-muted">Contact KHI</span>
                 <span class="badge badge-secondary badge-pill">i</span>
             </h4>
             <ul class="list-group mb-3">
