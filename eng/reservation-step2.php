@@ -57,7 +57,7 @@
                         echo "</div>";
                         echo "<div class='mb-3'>";
                         echo "<label for='email'>Mail <span class='text-muted'></span></label>";
-                        echo "<input type='email' name='email' placeholder='name@mail.com' class='form-control' id='email'>";
+                        echo "<input type='email' name='email' placeholder='name@mail.com' class='form-control' id='email' required>";
                         echo "<div class='invalid-feedback'>Please enter a valid email address for shipping updates.</div>";
                         echo "</div>";
                         echo "<div class='mb-3'>";

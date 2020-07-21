@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio refatoração do sistema, layout, ajustes na plataforma.">
-      <change afterPath="$PROJECT_DIR$/libraryreservation.zip" afterDir="false" />
+    <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio retirar dia inteiro">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eng/reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/reservation-step2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ger/reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/reservation-step2.php" afterDir="false" />
@@ -71,7 +70,7 @@
       <workItem from="1595104678682" duration="6000" />
       <workItem from="1595181224892" duration="16766000" />
       <workItem from="1595249336490" duration="245000" />
-      <workItem from="1595339661590" duration="28562000" />
+      <workItem from="1595339661590" duration="29462000" />
     </task>
     <task id="LOCAL-00001" summary="@felipesergio iniciando ajustes">
       <created>1595182092894</created>
@@ -108,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595369283763</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="@felipesergio retirar dia inteiro">
+      <created>1595369853042</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595369853042</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,7 +136,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="@felipesergio iniciando ajustes" />
     <MESSAGE value="@felipesergio refatoração do sistema, layout, ajustes na plataforma." />
-    <option name="LAST_COMMIT_MESSAGE" value="@felipesergio refatoração do sistema, layout, ajustes na plataforma." />
+    <MESSAGE value="@felipesergio retirar dia inteiro" />
+    <option name="LAST_COMMIT_MESSAGE" value="@felipesergio retirar dia inteiro" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595345407406">
@@ -141,10 +148,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595345518608" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595369290471">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595369974164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595369290471" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595369974164" />
     <state x="73" y="167" width="1182" height="544" key="dock-window-1" timestamp="1595096022648">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
