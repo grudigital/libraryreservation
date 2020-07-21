@@ -12,7 +12,7 @@ if ((isset($_POST['email'])) && (isset($_POST['senha']))) {
         $_SESSION['usuarioId'] = $resultado['id'];
         $_SESSION['usuarioNome'] = $resultado['nome'];
         $_SESSION['usuarioEmail'] = $resultado['email'];
-        echo "<meta http-equiv='refresh' content=0;url='../admin.php'>";
+        echo "<meta http-equiv='refresh' content=0;url='../login.php'>";
 
 
 

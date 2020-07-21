@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio iniciando ajustes">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraryreservation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-administradores-adicionar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-administradores.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-alunos-adicionar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-alunos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-error.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin-historico.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cancelreservation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/administradores-adicionar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/administradores-excluir.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/alunos-adicionar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/alunos-excluir.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/cancelreservation1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/cancelreservation2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/conexaorelatorios.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/conn.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/exportar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/exportar-administradores.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/exportar_alunos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/gravar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/gravar1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/gravar2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/mudarstatusaluno.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/mudarstatusaluno2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/relatoriododia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/reservastodas.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/sair.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/valida.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryreservation.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservaconfirmada.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservar2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservar3.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1erZJNf3REmQdITT58eKyhqfpIL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\libraryreservation\v2\eng\functions" />
+      <recent name="C:\xampp\htdocs\libraryreservation\v2" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="" />
+      <created>1595081600889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595081600889</updated>
+      <workItem from="1595081611499" duration="15419000" />
+      <workItem from="1595104678682" duration="6000" />
+      <workItem from="1595181224892" duration="16766000" />
+      <workItem from="1595249336490" duration="245000" />
+      <workItem from="1595339661590" duration="27433000" />
+    </task>
+    <task id="LOCAL-00001" summary="@felipesergio iniciando ajustes">
+      <created>1595182092894</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595182092894</updated>
+    </task>
+    <task id="LOCAL-00002" summary="@felipesergio iniciando ajustes">
+      <created>1595182099589</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595182099589</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="@felipesergio iniciando ajustes" />
+    <option name="LAST_COMMIT_MESSAGE" value="@felipesergio iniciando ajustes" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="446" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595345407406">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="446" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595345407406" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1595345518608">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595345518608" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595182104347">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595182104347" />
+    <state x="73" y="167" width="1182" height="544" key="dock-window-1" timestamp="1595096022648">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="73" y="167" width="1182" height="544" key="dock-window-1/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595096022648" />
+    <state x="390" y="97" width="585" height="534" key="find.popup" timestamp="1595215084322">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="97" width="585" height="534" key="find.popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595215084322" />
+    <state x="385" y="152" key="git4idea.merge.GitPullDialog" timestamp="1595339769321">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="385" y="152" key="git4idea.merge.GitPullDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595339769321" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1595089196875">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595089196875" />
+  </component>
+</project>

@@ -1,9 +1,3 @@
-$( ".startdate" ).datepicker({
-    dateFormat: 'dd-mm-yy',
-    changeMonth: true,
-    changeYear: true
-});
-
 /*!
     * Start Bootstrap - Resume v6.0.1 (https://startbootstrap.com/template-overviews/resume)
     * Copyright 2013-2020 Start Bootstrap

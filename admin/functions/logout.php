@@ -8,5 +8,5 @@ unset(
     $_SESSION['usuarioSenha']
 );
 $_SESSION['logindeslogado'] = "Deslogado com sucesso";
-header("Location: ../admin.php");
+header("Location: ../index.php");
 ?>

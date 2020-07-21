@@ -70,6 +70,12 @@ if ($_SESSION['usuarioNome'] == '') {
                 </div>
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">Mail</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Mail" aria-label="Mail" name="mail" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
                         <span class="input-group-text" id="basic-addon1">Conduct Manual</span>
                     </div>
                     <select type="select" name="aceite" class="form-control" aria-label="aceite" id="aceite" aria-describedby="basic-addon1">
@@ -80,7 +86,7 @@ if ($_SESSION['usuarioNome'] == '') {
 
                 <button class="btn btn-primary btn-lg btn-block" name="submit" type="submit">Save</button>
             </form>
-        </div>t
+        </div>
     </div>
     <section class="rodape-reservas">
         <p class="texto-rodape">&copy; 2020 Kunsthistorische Institut in Florenz</p>
