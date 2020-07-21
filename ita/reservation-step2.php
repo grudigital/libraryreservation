@@ -75,10 +75,10 @@
                         echo "<input class='form-check-input' type='radio' name='periodo' id='exampleRadios2' value='afternoon'>";
                         echo "<label class='form-check-label' for='exampleRadios2'>Pomeriggio (13:00-17:00)</label>";
                         echo "</div>";
-                        echo "<div class='form-check'>";
-                        echo "<input class='form-check-input' type='radio' name='periodo' id='exampleRadios2' value='day'>";
-                        echo "<label class='form-check-label' for='exampleRadios2'>Giorno intero (09:00-17:00)</label>";
-                        echo "</div>";
+//                        echo "<div class='form-check'>";
+//                        echo "<input class='form-check-input' type='radio' name='periodo' id='exampleRadios2' value='day'>";
+//                        echo "<label class='form-check-label' for='exampleRadios2'>Giorno intero (09:00-17:00)</label>";
+//                        echo "</div>";
                         echo "<div class='custom-control custom-radio'>";
                         echo "<hr class='mb-4'>";
                         echo "<button class='btn btn-primary btn-lg btn-block' type='submit'>Riserva</button>";
