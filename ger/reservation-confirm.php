@@ -22,7 +22,7 @@
             <h2 style="margin-bottom: 20px" class="mb-0">
                 <?php
                 require("../admin/connections/conn.php");
-                $sql = "select id, germany FROM languages where id=19";
+                $sql = "select id, germany FROM languages where id=17";
                 $result = mysqli_query($conn, $sql);
                 while ($row = mysqli_fetch_assoc($result)) {
                     echo "$row[germany]";
