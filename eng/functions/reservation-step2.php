@@ -8,6 +8,10 @@ $data = $_REQUEST['data'];
 $periodo = $_REQUEST['periodo'];
 
 require("../../admin/connections/conn.php");
+
+
+
+
 $sql = "update reservas set codigo='$codigo',nome='$nome',sobrenome='$sobrenome',email='$email',data=DATE_FORMAT(STR_TO_DATE('$data', '%d/%m/%Y'), '%Y-%m-%d'),periodo='$periodo' where id=$id";
 if (!mysqli_query($conn,$sql))
 {

@@ -19,11 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio correção de listagem previous reservations">
+    <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio manipulação de dados no momento do upload.">
+      <change afterPath="$PROJECT_DIR$/eng/reservation-exceeded.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ger/reservation-exceeded.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ita/reservation-exceeded.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng/functions/reservation-step1.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/functions/reservation-step1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eng/functions/reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/functions/reservation-step2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eng/reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/reservation-step2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ger/functions/reservation-step1.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/functions/reservation-step1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ita/functions/reservation-step1.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/functions/reservation-step1.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +85,7 @@
       <workItem from="1595249336490" duration="245000" />
       <workItem from="1595339661590" duration="29462000" />
       <workItem from="1595456033239" duration="5250000" />
-      <workItem from="1595513479052" duration="7802000" />
+      <workItem from="1595513479052" duration="14301000" />
     </task>
     <task id="LOCAL-00001" summary="@felipesergio iniciando ajustes">
       <created>1595182092894</created>
@@ -159,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595521328831</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="@felipesergio manipulação de dados no momento do upload.">
+      <created>1595523316223</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1595523316223</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +199,8 @@
     <MESSAGE value="@felipesergio para inicial direcionando para o idioma em ingles." />
     <MESSAGE value="@felipesergio pagina de reserva passou a ser pagina inicial. Importacao do banco de dados de alunos." />
     <MESSAGE value="@felipesergio correção de listagem previous reservations" />
-    <option name="LAST_COMMIT_MESSAGE" value="@felipesergio correção de listagem previous reservations" />
+    <MESSAGE value="@felipesergio manipulação de dados no momento do upload." />
+    <option name="LAST_COMMIT_MESSAGE" value="@felipesergio manipulação de dados no momento do upload." />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595345407406">
@@ -198,10 +211,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595345518608" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595521336956">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595523382030">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595521336956" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595523382030" />
     <state x="73" y="167" width="1182" height="544" key="dock-window-1" timestamp="1595096022648">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
