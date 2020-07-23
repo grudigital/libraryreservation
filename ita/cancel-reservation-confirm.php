@@ -1,6 +1,21 @@
 <?php include 'includes/header.php' ?>
 <body id="page-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
 <?php include 'includes/menu.php' ?>
+<div class="container">
+    <div class="row">
+        <div class="col-sm flags-header">
+            <a href="../eng/cancel-reservation-confirm.php"><img width="100%" height="35px" src="../assets/img/flag-english.png"></a>
+        </div>
+        <div class="col-sm">
+            <a href="../ger/cancel-reservation-confirm.php"><img width="100%" height="35px" src="../assets/img/flag-germany.png"></a>
+        </div>
+        <div class="col-sm">
+            <a href="../ita/cancel-reservation-confirm.php"><img width="100%" height="35px" src="../assets/img/flag-italy.png"></a>
+        </div>
+    </div>
+</div>
+</nav>
 <div class="container-fluid p-0">
     <!-- About-->
     <section class="resume-section" id="about">

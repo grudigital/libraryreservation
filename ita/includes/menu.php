@@ -1,4 +1,3 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
    <a class="navbar-brand js-scroll-trigger" href="index.php">
         <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../assets/img/profile.jpg" alt="" /></span>
     </a>
@@ -46,17 +45,3 @@
             ?>
         </ul>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm flags-header">
-                <a href="../eng"><img width="100%" height="35px" src="../assets/img/flag-english.png"></a>
-            </div>
-            <div class="col-sm">
-                <a href="../ger"><img width="100%" height="35px" src="../assets/img/flag-germany.png"></a>
-            </div>
-            <div class="col-sm">
-                <a href="../ita"><img width="100%" height="35px" src="../assets/img/flag-italy.png"></a>
-            </div>
-        </div>
-    </div>
-</nav>
