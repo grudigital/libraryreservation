@@ -31,6 +31,17 @@
                 ?>
             </h2>
             <div style="height: 20px"></div>
+            <p><?php
+                require("../admin/connections/conn.php");
+                $sql = "select id, germany FROM languages where id=6";
+                $result = mysqli_query($conn, $sql);
+                while ($row = mysqli_fetch_assoc($result)) {
+                    echo "$row[germany]";
+                }
+                mysqli_close($conn);
+                ?></p>
+
+            <div style="height: 20px"></div>
             <form action="functions/reservation-step1.php" enctype="multipart/form-data" method="post" class="needs-validation" novalidate>
                 <div class="mb-3">
                     <label class="username">
