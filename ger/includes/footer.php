@@ -1,8 +1,8 @@
 <script type="text/javascript">
     $('.datepicker').datepicker({
         format: 'dd/mm/yyyy',
-        startDate: new Date('2020-7-23'),
-        endDate: new Date('2020-7-30'),
+        startDate: new Date(Date.now() + 24 * 60 * 60 * 1000),
+        endDate: new Date(Date.now() + 9 * 24 * 60 * 60 * 1000),
         daysOfWeekDisabled: [0,6],
     });
     $('.datepicker').on("keydown", function() {
