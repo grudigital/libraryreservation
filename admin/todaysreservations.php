@@ -110,7 +110,7 @@ if ($_SESSION['usuarioNome'] == '') {
                         <tbody>
                         <?php
                         require ("connections/conn.php");
-                        $sql = "select * FROM reservas where data = curdate()";
+                        $sql = "select id, codigo, nome, sobrenome, email, date_format(data, '%d/%m/%Y') as datareserva, periodo, date_format(cadastroem, '%d/%m/%Y') as datacadastro FROM reservas where data = curdate()";
                         $result = mysqli_query($conn, $sql);
                         while($row = mysqli_fetch_assoc($result))
                         {
@@ -118,9 +118,9 @@ if ($_SESSION['usuarioNome'] == '') {
                             echo "<th scope='row'>$row[id]</th>";
                             echo "<td>$row[nome]</td>";
                             echo "<td>$row[sobrenome]</td>";
-                            echo "<td>$row[data]</td>";
+                            echo "<td>$row[datareserva]</td>";
                             echo "<td>$row[periodo]</td>";
-                            echo "<td>$row[cadastroem]</td>";
+                            echo "<td>$row[datacadastro]</td>";
                             echo "</tr>";
                         }
                         ?>

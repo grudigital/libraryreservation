@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio trava onde uma pessoa só pode ter 4 agendamentos nos proximos 30 dias.">
+    <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio correção de retorno de formato data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/cancel-reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/cancel-reservation-step2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/cancel-reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/cancel-reservation-step2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/cancel-reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/cancel-reservation-step2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/allreserve.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/allreserve.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/tomorrowsreservations.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/tomorrowsreservations.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
       <workItem from="1595249336490" duration="245000" />
       <workItem from="1595339661590" duration="29462000" />
       <workItem from="1595456033239" duration="5250000" />
-      <workItem from="1595513479052" duration="17311000" />
+      <workItem from="1595513479052" duration="18431000" />
     </task>
     <task id="LOCAL-00001" summary="@felipesergio iniciando ajustes">
       <created>1595182092894</created>
@@ -180,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595534338102</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="@felipesergio correção de retorno de formato data">
+      <created>1595537762461</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1595537762461</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +216,8 @@
     <MESSAGE value="@felipesergio correção de listagem previous reservations" />
     <MESSAGE value="@felipesergio manipulação de dados no momento do upload." />
     <MESSAGE value="@felipesergio trava onde uma pessoa só pode ter 4 agendamentos nos proximos 30 dias." />
-    <option name="LAST_COMMIT_MESSAGE" value="@felipesergio trava onde uma pessoa só pode ter 4 agendamentos nos proximos 30 dias." />
+    <MESSAGE value="@felipesergio correção de retorno de formato data" />
+    <option name="LAST_COMMIT_MESSAGE" value="@felipesergio correção de retorno de formato data" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595345407406">
@@ -221,10 +228,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595345518608" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595534344154">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595537768755">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595534344154" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595537768755" />
     <state x="73" y="167" width="1182" height="544" key="dock-window-1" timestamp="1595096022648">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
