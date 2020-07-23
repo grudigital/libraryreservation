@@ -19,14 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio para inicial direcionando para o idioma em ingles.">
+    <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio pagina de reserva passou a ser pagina inicial. Importacao do banco de dados de alunos.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/reserve.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/reserve.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/reserve.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/reserve.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/reserve.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/reserve.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng/cancel-reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/cancel-reservation-step2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ger/cancel-reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/cancel-reservation-step2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ita/cancel-reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/cancel-reservation-step2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +80,7 @@
       <workItem from="1595249336490" duration="245000" />
       <workItem from="1595339661590" duration="29462000" />
       <workItem from="1595456033239" duration="5250000" />
-      <workItem from="1595513479052" duration="4586000" />
+      <workItem from="1595513479052" duration="6231000" />
     </task>
     <task id="LOCAL-00001" summary="@felipesergio iniciando ajustes">
       <created>1595182092894</created>
@@ -148,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595515904289</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="@felipesergio pagina de reserva passou a ser pagina inicial. Importacao do banco de dados de alunos.">
+      <created>1595518989627</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1595518989627</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +178,8 @@
     <MESSAGE value="@felipesergio ajustes menu reservas" />
     <MESSAGE value="@felipesergio bug. quando transita entre os idiomas ele sempre retorna para a pagina principal" />
     <MESSAGE value="@felipesergio para inicial direcionando para o idioma em ingles." />
-    <option name="LAST_COMMIT_MESSAGE" value="@felipesergio para inicial direcionando para o idioma em ingles." />
+    <MESSAGE value="@felipesergio pagina de reserva passou a ser pagina inicial. Importacao do banco de dados de alunos." />
+    <option name="LAST_COMMIT_MESSAGE" value="@felipesergio pagina de reserva passou a ser pagina inicial. Importacao do banco de dados de alunos." />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595345407406">
@@ -185,10 +190,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595345518608" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595515911466">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595518995855">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595515911466" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595518995855" />
     <state x="73" y="167" width="1182" height="544" key="dock-window-1" timestamp="1595096022648">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
