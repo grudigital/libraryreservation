@@ -77,7 +77,7 @@
                         echo "</div>";
                         echo "<div class='mb-3'>";
                         echo "<label for='address'>Date</label>";
-                        echo "<input type='text' name='data' id='datepicker' class='form-control datepicker' autocomplete='off' required>";
+                        echo "<input type='text' name='data' class='form-control datepicker' autocomplete='off' required>";
                         echo "<div class='invalid-feedback'>Please enter your date.</div>";
                         echo "</div>";
                         echo "<h4 class='mb-3'>Period</h4>";
