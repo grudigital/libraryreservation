@@ -75,7 +75,7 @@
                 <?php
                 require("../admin/connections/conn.php");
                 $pegaid = (int)$_GET['codigo'];
-                $sql = "select * FROM reservas where codigo = '$pegaid' AND data > DATE_SUB(CURRENT_DATE(),INTERVAL -1 DAY)";
+                $sql = "select id, codigo, nome, sobrenome, email, date_format(data, '%d/%m/%Y') as datareserva, periodo, cadastroem FROM reservas where codigo = '$pegaid' AND data > DATE_SUB(CURRENT_DATE(),INTERVAL -1 DAY)";
                 $result = mysqli_query($conn, $sql);
                 $num_rows = mysqli_num_rows($result);
                 if ($num_rows == 0) {
@@ -87,7 +87,7 @@
 
                     while ($row = mysqli_fetch_assoc($result)) {
                         echo "<tr>";
-                        echo "<td>$row[data]</td>";
+                        echo "<td>$row[datareserva]</td>";
                         echo "<td>$row[periodo]</td>";
                         echo "<td><a href='functions/cancel-step2.php?id=$row[id]'><button class='btn btn-danger btn-lg btn-block botao-cancelar' type='button'>Cancel Reservation</button></a></td>";
                         echo "</tr>";
@@ -144,7 +144,7 @@
                 <?php
                 require("../admin/connections/conn.php");
                 $pegaid = (int)$_GET['codigo'];
-                $sql = "select * FROM reservas where codigo = '$pegaid' and data != 'null' and data < date_sub(CURRENT_DATE(),interval -1 day) order by data desc";
+                $sql = "select id, codigo, nome, sobrenome, email, date_format(data, '%d/%m/%Y') as datareserva, periodo, cadastroem FROM reservas where codigo = '$pegaid' and data != 'null' and data < date_sub(CURRENT_DATE(),interval -1 day) order by data desc";
                 $result = mysqli_query($conn, $sql);
                 $num_rows = mysqli_num_rows($result);
                 if ($num_rows == 0) {
@@ -156,7 +156,7 @@
 
                     while ($row = mysqli_fetch_assoc($result)) {
                         echo "<tr>";
-                        echo "<td>$row[data]</td>";
+                        echo "<td>$row[datareserva]</td>";
                         echo "<td>$row[periodo]</td>";
                         echo "</tr>";
                     }

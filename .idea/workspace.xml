@@ -19,16 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio manipulação de dados no momento do upload.">
-      <change afterPath="$PROJECT_DIR$/eng/reservation-exceeded.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ger/reservation-exceeded.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ita/reservation-exceeded.php" afterDir="false" />
+    <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio trava onde uma pessoa só pode ter 4 agendamentos nos proximos 30 dias.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/functions/reservation-step1.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/functions/reservation-step1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/functions/reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/functions/reservation-step2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/reservation-step2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/functions/reservation-step1.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/functions/reservation-step1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/functions/reservation-step1.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/functions/reservation-step1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng/cancel-reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/cancel-reservation-step2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ger/cancel-reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/cancel-reservation-step2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ita/cancel-reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/cancel-reservation-step2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +80,7 @@
       <workItem from="1595249336490" duration="245000" />
       <workItem from="1595339661590" duration="29462000" />
       <workItem from="1595456033239" duration="5250000" />
-      <workItem from="1595513479052" duration="14301000" />
+      <workItem from="1595513479052" duration="17311000" />
     </task>
     <task id="LOCAL-00001" summary="@felipesergio iniciando ajustes">
       <created>1595182092894</created>
@@ -171,7 +166,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595523316223</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="@felipesergio trava onde uma pessoa só pode ter 4 agendamentos nos proximos 30 dias.">
+      <created>1595534237308</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1595534237308</updated>
+    </task>
+    <task id="LOCAL-00014" summary="@felipesergio trava onde uma pessoa só pode ter 4 agendamentos nos proximos 30 dias.">
+      <created>1595534338102</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1595534338102</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +209,8 @@
     <MESSAGE value="@felipesergio pagina de reserva passou a ser pagina inicial. Importacao do banco de dados de alunos." />
     <MESSAGE value="@felipesergio correção de listagem previous reservations" />
     <MESSAGE value="@felipesergio manipulação de dados no momento do upload." />
-    <option name="LAST_COMMIT_MESSAGE" value="@felipesergio manipulação de dados no momento do upload." />
+    <MESSAGE value="@felipesergio trava onde uma pessoa só pode ter 4 agendamentos nos proximos 30 dias." />
+    <option name="LAST_COMMIT_MESSAGE" value="@felipesergio trava onde uma pessoa só pode ter 4 agendamentos nos proximos 30 dias." />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595345407406">
@@ -211,10 +221,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595345518608" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595523382030">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595534344154">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595523382030" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595534344154" />
     <state x="73" y="167" width="1182" height="544" key="dock-window-1" timestamp="1595096022648">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
