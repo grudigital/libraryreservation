@@ -34,7 +34,7 @@
 
                     while ($row = mysqli_fetch_assoc($result)) {
                         echo "<div class='mb-3'>";
-                        echo "<label class='username'>KHI-Kartennummer</label>";
+                        echo "<label class='username'>Benutzerkarte-Nummer</label>";
                         echo "<div class='input-group'>";
                         echo "<div class='input-group-prepend'>";
                         echo "<span class='input-group-text'>##</span>";
@@ -45,7 +45,7 @@
                         echo "</div>";
                         echo "<div class='row'>";
                         echo "<div class='col-md-6 mb-3'>";
-                        echo "<label for='firstName'>Vorname</label>";
+                        echo "<label for='firstName'>Name</label>";
                         echo "<input type='text' name='nome' value='$row[nome]' class='form-control' id='firstName' readonly>";
                         echo "<div class='invalid-feedback'>Ein gültiger Vorname ist erforderlich.</div>";
                         echo "</div>";
@@ -56,13 +56,13 @@
                         echo "</div>";
                         echo "</div>";
                         echo "<div class='mb-3'>";
-                        echo "<label for='email'>Mail <span class='text-muted'></span></label>";
+                        echo "<label for='email'>Emailadresse <span class='text-muted'></span></label>";
                         echo "<input type='email' name='email' class='form-control' id='email' required>";
                         echo "<div class='invalid-feedback'>Please enter a valid email address for shipping updates.</div>";
                         echo "</div>";
                         echo "<div class='mb-3'>";
                         echo "<label for='address'>Datum</label>";
-                        echo "<input type='text' name='data' class='form-control datepicker' autocomplete='off' required>";
+                        echo "<input type='text' name='data' id='datepicker'  class='form-control datepicker' autocomplete='off' required>";
                         echo "<div class='invalid-feedback'>Please enter your date.</div>";
                         echo "</div>";
                         echo "<h4 class='mb-3'>Zeitraum</h4>";

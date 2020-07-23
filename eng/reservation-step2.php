@@ -34,7 +34,7 @@
 
                     while ($row = mysqli_fetch_assoc($result)) {
                         echo "<div class='mb-3'>";
-                        echo "<label class='username'>KHI Card Number</label>";
+                        echo "<label class='username'>Number of card</label>";
                         echo "<div class='input-group'>";
                         echo "<div class='input-group-prepend'>";
                         echo "<span class='input-group-text'>##</span>";
@@ -45,24 +45,24 @@
                         echo "</div>";
                         echo "<div class='row'>";
                         echo "<div class='col-md-6 mb-3'>";
-                        echo "<label for='firstName'>First name</label>";
+                        echo "<label for='firstName'>Name</label>";
                         echo "<input type='text' name='nome' value='$row[nome]' class='form-control' id='firstName' readonly>";
                         echo "<div class='invalid-feedback'>Valid first name is required.</div>";
                         echo "</div>";
                         echo "<div class='col-md-6 mb-3'>";
-                        echo "<label for='lastName'>Last name</label>";
+                        echo "<label for='lastName'>Surname</label>";
                         echo "<input type='text' name='sobrenome' value='$row[sobrenome]' class='form-control' id='lastName' readonly>";
                         echo " <div class='invalid-feedback'>Valid last name is required.</div>";
                         echo "</div>";
                         echo "</div>";
                         echo "<div class='mb-3'>";
-                        echo "<label for='email'>Mail <span class='text-muted'></span></label>";
+                        echo "<label for='email'>Email Address<span class='text-muted'></span></label>";
                         echo "<input type='email' name='email' placeholder='name@mail.com' class='form-control' id='email' required>";
                         echo "<div class='invalid-feedback'>Please enter a valid email address for shipping updates.</div>";
                         echo "</div>";
                         echo "<div class='mb-3'>";
                         echo "<label for='address'>Date</label>";
-                        echo "<input type='text' name='data' class='form-control datepicker' autocomplete='off' required>";
+                        echo "<input type='text' name='data' id='datepicker' class='form-control datepicker' autocomplete='off' required>";
                         echo "<div class='invalid-feedback'>Please enter your date.</div>";
                         echo "</div>";
                         echo "<h4 class='mb-3'>Period</h4>";

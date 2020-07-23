@@ -1,7 +1,13 @@
 <script type="text/javascript">
     $('.datepicker').datepicker({
-        format: 'yyyy/mm/dd',
+        format: 'dd/mm/yyyy',
+        startDate: new Date('2020-7-23'),
+        endDate: new Date('2020-7-30'),
         daysOfWeekDisabled: [0,6],
+    });
+    $('.datepicker').on("keydown", function() {
+        event.preventDefault();
+        return false;
     });
 
 </script>

@@ -60,7 +60,7 @@
                 <?php
                 require("../admin/connections/conn.php");
                 $pegaid = (int)$_GET['codigo'];
-                $sql = "select * FROM reservas where codigo = '$pegaid'";
+                $sql = "select * FROM reservas where codigo = '$pegaid' AND data > DATE_SUB(CURRENT_DATE(),INTERVAL -1 DAY)";
                 $result = mysqli_query($conn, $sql);
                 $num_rows = mysqli_num_rows($result);
                 if ($num_rows == 0) {
@@ -82,6 +82,75 @@
                 ?>
                 </tbody>
             </table>
+
+            <h2 style="margin-bottom: 20px" class="mb-0">
+                <?php
+                require("../admin/connections/conn.php");
+                $sql = "select id, english FROM languages where id=21";
+                $result = mysqli_query($conn, $sql);
+                while ($row = mysqli_fetch_assoc($result)) {
+                    echo "$row[english]";
+                }
+                mysqli_close($conn);
+                ?>
+            </h2>
+            <div style="height: 20px"></div>
+            <table class='table'>
+                <thead>
+                <tr>
+                    <th width='35%' scope='col'>
+                        <?php
+                        require("../admin/connections/conn.php");
+                        $sql = "select id, english FROM languages where id=14";
+                        $result = mysqli_query($conn, $sql);
+                        while ($row = mysqli_fetch_assoc($result)) {
+                            echo "$row[english]";
+                        }
+                        mysqli_close($conn);
+                        ?>
+                    </th>
+                    <th width='35%' scope='col'>
+                        <?php
+                        require("../admin/connections/conn.php");
+                        $sql = "select id, english FROM languages where id=15";
+                        $result = mysqli_query($conn, $sql);
+                        while ($row = mysqli_fetch_assoc($result)) {
+                            echo "$row[english]";
+                        }
+                        mysqli_close($conn);
+                        ?>
+                    </th>
+
+                </tr>
+                </thead>
+                <tbody>
+
+
+                <?php
+                require("../admin/connections/conn.php");
+                $pegaid = (int)$_GET['codigo'];
+                $sql = "select * FROM reservas where codigo = '$pegaid' and data != 'null' order by data desc";
+                $result = mysqli_query($conn, $sql);
+                $num_rows = mysqli_num_rows($result);
+                if ($num_rows == 0) {
+                    echo "<div class='alert alert-danger' role='alert'>";
+                    echo "There are no scheduling records with the code entered!";
+                    echo "</div>";
+                } else {
+
+
+                    while ($row = mysqli_fetch_assoc($result)) {
+                        echo "<tr>";
+                        echo "<td>$row[data]</td>";
+                        echo "<td>$row[periodo]</td>";
+                        echo "</tr>";
+                    }
+                }
+                mysqli_close($conn);
+                ?>
+                </tbody>
+            </table>
+
         </div>
     </section>
 </div>

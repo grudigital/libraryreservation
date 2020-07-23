@@ -20,10 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio retirar dia inteiro">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraryreservation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng/cancel-reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/cancel-reservation-step2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng/cancel-reservation.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/cancel-reservation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/includes/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng/includes/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/includes/menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eng/reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/reservation-step2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ger/cancel-reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/cancel-reservation-step2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ger/cancel-reservation.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/cancel-reservation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ger/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/includes/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ger/includes/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/includes/menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ger/reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/reservation-step2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ita/cancel-reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/cancel-reservation-step2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ita/cancel-reservation.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/cancel-reservation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ita/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/includes/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ita/includes/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/includes/menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ita/reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/reservation-step2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryreservation.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryreservationv2.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +65,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -71,6 +98,7 @@
       <workItem from="1595181224892" duration="16766000" />
       <workItem from="1595249336490" duration="245000" />
       <workItem from="1595339661590" duration="29462000" />
+      <workItem from="1595456033239" duration="5250000" />
     </task>
     <task id="LOCAL-00001" summary="@felipesergio iniciando ajustes">
       <created>1595182092894</created>
@@ -156,10 +184,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="73" y="167" width="1182" height="544" key="dock-window-1/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595096022648" />
-    <state x="390" y="97" width="585" height="534" key="find.popup" timestamp="1595215084322">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="411" y="132" width="617" height="599" key="find.popup" timestamp="1595475636783">
+      <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="390" y="97" width="585" height="534" key="find.popup/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595215084322" />
+    <state x="411" y="132" width="617" height="599" key="find.popup/0.23.1440.816@0.23.1440.816" timestamp="1595475636783" />
     <state x="385" y="152" key="git4idea.merge.GitPullDialog" timestamp="1595339769321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

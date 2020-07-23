@@ -31,7 +31,7 @@
                         ?>
                         <span class='text-muted'></span></label>
                     <input type="text" name="codigo" placeholder="KHI Card Number" class="form-control"
-                           id="email">
+                           id="email" required>
                     <br/>
                     <button class="btn btn-danger btn-lg btn-block" type="submit">
                         <?php

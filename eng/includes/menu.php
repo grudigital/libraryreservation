@@ -5,15 +5,15 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
-            <?php
-            require("../admin/connections/conn.php");
-            $sql = "select id, english FROM languages where id=1";
-            $result = mysqli_query($conn, $sql);
-            while ($row = mysqli_fetch_assoc($result)) {
-                echo "<li class='nav-item'><a class='nav-link js-scroll-trigger' href='index.php'>$row[english]</a></li>";
-            }
-            mysqli_close($conn);
-            ?>
+<!--            --><?php
+//            require("../admin/connections/conn.php");
+//            $sql = "select id, english FROM languages where id=1";
+//            $result = mysqli_query($conn, $sql);
+//            while ($row = mysqli_fetch_assoc($result)) {
+//                echo "<li class='nav-item'><a class='nav-link js-scroll-trigger' href='index.php'>$row[english]</a></li>";
+//            }
+//            mysqli_close($conn);
+//            ?>
 
             <?php
             require("../admin/connections/conn.php");
