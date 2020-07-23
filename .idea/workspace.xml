@@ -19,38 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio ajustes menu reservas">
-      <change afterPath="$PROJECT_DIR$/eng/includes/flag_eng.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eng/includes/flag_ger.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eng/includes/flag_ita.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/cancel-reservation-confirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/cancel-reservation-confirm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/cancel-reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/cancel-reservation-step2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/cancel-reservation.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/cancel-reservation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/includes/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/includes/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/reservation-confirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/reservation-confirm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/reservation-step2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/reserve.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/reserve.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/cancel-reservation-confirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/cancel-reservation-confirm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/cancel-reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/cancel-reservation-step2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/cancel-reservation.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/cancel-reservation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/includes/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/includes/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/reservation-confirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/reservation-confirm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/reservation-step2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/reserve.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/reserve.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/cancel-reservation-confirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/cancel-reservation-confirm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/cancel-reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/cancel-reservation-step2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/cancel-reservation.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/cancel-reservation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/includes/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/includes/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/reservation-confirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/reservation-confirm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/reservation-step2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/reserve.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/reserve.php" afterDir="false" />
+    <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio bug. quando transita entre os idiomas ele sempre retorna para a pagina principal">
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +77,7 @@
       <workItem from="1595249336490" duration="245000" />
       <workItem from="1595339661590" duration="29462000" />
       <workItem from="1595456033239" duration="5250000" />
-      <workItem from="1595513479052" duration="2124000" />
+      <workItem from="1595513479052" duration="2366000" />
     </task>
     <task id="LOCAL-00001" summary="@felipesergio iniciando ajustes">
       <created>1595182092894</created>
@@ -158,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595514026508</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="@felipesergio bug. quando transita entre os idiomas ele sempre retorna para a pagina principal">
+      <created>1595515658481</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595515658481</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +159,8 @@
     <MESSAGE value="@felipesergio refatoração do sistema, layout, ajustes na plataforma." />
     <MESSAGE value="@felipesergio retirar dia inteiro" />
     <MESSAGE value="@felipesergio ajustes menu reservas" />
-    <option name="LAST_COMMIT_MESSAGE" value="@felipesergio ajustes menu reservas" />
+    <MESSAGE value="@felipesergio bug. quando transita entre os idiomas ele sempre retorna para a pagina principal" />
+    <option name="LAST_COMMIT_MESSAGE" value="@felipesergio bug. quando transita entre os idiomas ele sempre retorna para a pagina principal" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595345407406">
@@ -193,10 +171,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595345518608" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595514033429">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595515681379">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595514033429" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595515681379" />
     <state x="73" y="167" width="1182" height="544" key="dock-window-1" timestamp="1595096022648">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
