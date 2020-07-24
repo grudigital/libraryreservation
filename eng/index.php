@@ -5,13 +5,13 @@
     <div class="container">
         <div class="row">
             <div class="col-sm flags-header">
-                <a href="../eng/reserve.php"><?php include 'includes/flag_eng.php'?></a>
+                <a href="../ger/reserve.php">DE</a>
             </div>
-            <div class="col-sm">
-                <a href="../ger/reserve.php"><?php include 'includes/flag_ger.php'?></a>
+            <div class="col-sm flags-header">
+                <a href="../eng/reserve.php">EN</a>
             </div>
-            <div class="col-sm">
-                <a href="../ita/reserve.php"><?php include 'includes/flag_ita.php'?></a>
+            <div class="col-sm flags-header">
+                <a href="../ita/reserve.php">IT</a>
             </div>
         </div>
     </div>

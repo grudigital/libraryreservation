@@ -5,13 +5,13 @@
     <div class="container">
         <div class="row">
             <div class="col-sm flags-header">
-                <a href="../eng/reserve.php"><img width="100%" height="35px" src="../assets/img/flag-english.png"></a>
+                <a href="../ger/reserve.php">DE</a>
             </div>
-            <div class="col-sm">
-                <a href="../ger/reserve.php"><img width="100%" height="35px" src="../assets/img/flag-germany.png"></a>
+            <div class="col-sm flags-header">
+                <a href="../eng/reserve.php">EN</a>
             </div>
-            <div class="col-sm">
-                <a href="../ita/reserve.php"><img width="100%" height="35px" src="../assets/img/flag-italy.png"></a>
+            <div class="col-sm flags-header">
+                <a href="../ita/reserve.php">IT</a>
             </div>
         </div>
     </div>
