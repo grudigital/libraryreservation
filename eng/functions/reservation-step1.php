@@ -2,7 +2,7 @@
 $codigo = $_REQUEST['codigo'];
 require("../../admin/connections/conn.php");
 
-$validacaoquantidade= "select * from reservas where codigo = '$codigo' and data between NOW() and DATE_ADD(NOW(), INTERVAL 1 MONTH)";
+$validacaoquantidade= "select * from reservas where codigo = '$codigo' and data between NOW() and DATE_ADD(NOW(), INTERVAL 7 DAY)";
 $result2 = mysqli_query($conn, $validacaoquantidade);
 $num_rows2 = mysqli_num_rows($result2);
 
