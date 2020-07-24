@@ -8,7 +8,9 @@ $num_rows2 = mysqli_num_rows($result2);
 
 if($num_rows2 >= '4'){
     echo "<meta http-equiv='refresh' content=0;url='../reservation-exceeded.php'>";
-} else{
+}
+else
+    {
 
 $sql="INSERT INTO reservas (codigo,cadastroem) VALUES ('$_POST[codigo]',now())";
 if (!mysqli_query($conn,$sql))

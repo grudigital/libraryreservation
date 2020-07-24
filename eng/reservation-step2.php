@@ -34,17 +34,12 @@
                   novalidate>
 
                 <?php
-
                 require("../admin/connections/conn.php");
-
-
 
                 $pegaid = (int)$_GET['id'];
                 $sql = "select * FROM usuarios where codigo = '$pegaid'";
                 $result = mysqli_query($conn, $sql);
                 $num_rows = mysqli_num_rows($result);
-
-
 
                 if ($num_rows == 0) {
                     echo "<div class='alert alert-primary' role='alert'>";
