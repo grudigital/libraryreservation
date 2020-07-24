@@ -77,7 +77,7 @@
       <workItem from="1595456033239" duration="5250000" />
       <workItem from="1595513479052" duration="22247000" />
       <workItem from="1595554349123" duration="160000" />
-      <workItem from="1595554516482" duration="3293000" />
+      <workItem from="1595554516482" duration="3438000" />
     </task>
     <task id="LOCAL-00001" summary="@felipesergio iniciando ajustes">
       <created>1595182092894</created>
@@ -219,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595558034229</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="@felipesergio bloqueio para nao ocorrer 2 registros no mesmo dia.">
+      <created>1595560102471</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1595560102471</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
