@@ -5,13 +5,13 @@
     <div class="container">
         <div class="row">
             <div class="col-sm flags-header">
-                <a href="../ger/reserve.php">DE</a>
+                <a href="../ger/reservation-exceeded.php">DE</a>
             </div>
             <div class="col-sm flags-header">
-                <a href="../eng/reserve.php">EN</a>
+                <a href="../eng/reservation-exceeded.php">EN</a>
             </div>
             <div class="col-sm flags-header">
-                <a href="../ita/reserve.php">IT</a>
+                <a href="../ita/reservation-exceeded.php">IT</a>
             </div>
         </div>
     </div>
@@ -42,6 +42,37 @@
                 mysqli_close($conn);
                 ?>
             </div>
+            <div style="height: 20px"></div>
+            <form action="functions/cancel-step1.php" enctype="multipart/form-data" method="post"
+                  class="needs-validation" novalidate>
+                <div>
+                    <label for="cancel">
+                        <?php
+                        require("../admin/connections/conn.php");
+                        $sql = "select id, italy FROM languages where id=24";
+                        $result = mysqli_query($conn, $sql);
+                        while ($row = mysqli_fetch_assoc($result)) {
+                            echo "$row[italy]";
+                        }
+                        mysqli_close($conn);
+                        ?>
+                        <span class='text-muted'></span></label>
+                    <input type="text" name="codigo" placeholder="KHI Card Number" class="form-control"
+                           id="email" required>
+                    <br/>
+                    <button class="btn btn-danger btn-lg btn-block" type="submit">
+                        <?php
+                        require("../admin/connections/conn.php");
+                        $sql = "select id, italy FROM languages where id=12";
+                        $result = mysqli_query($conn, $sql);
+                        while ($row = mysqli_fetch_assoc($result)) {
+                            echo "$row[italy]";
+                        }
+                        mysqli_close($conn);
+                        ?>
+                    </button>
+                </div>
+            </form>
         </div>
     </section>
 </div>

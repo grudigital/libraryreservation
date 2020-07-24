@@ -5,13 +5,13 @@
     <div class="container">
         <div class="row">
             <div class="col-sm flags-header">
-                <a href="../ger/reserve.php">DE</a>
+                <a href="../ger/reservation-confirm.php">DE</a>
             </div>
             <div class="col-sm flags-header">
-                <a href="../eng/reserve.php">EN</a>
+                <a href="../eng/reservation-confirm.php">EN</a>
             </div>
             <div class="col-sm flags-header">
-                <a href="../ita/reserve.php">IT</a>
+                <a href="../ita/reservation-confirm.php">IT</a>
             </div>
         </div>
     </div>
