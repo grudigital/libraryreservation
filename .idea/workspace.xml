@@ -19,7 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio bloqueio de 2 registros da mesma pessoa para o mesmo periodo." />
+    <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio bloqueio de 2 registros da mesma pessoa para o mesmo periodo.">
+      <change afterPath="$PROJECT_DIR$/eng/reservation-exceeded-period.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ger/reservation-exceeded-period.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ita/reservation-exceeded-period.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng/functions/reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/functions/reservation-step2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ger/functions/reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/functions/reservation-step2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ita/functions/reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/functions/reservation-step2.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +90,7 @@
       <workItem from="1595605333692" duration="856000" />
       <workItem from="1595693589940" duration="389000" />
       <workItem from="1595694316628" duration="3052000" />
+      <workItem from="1595700466509" duration="2417000" />
     </task>
     <task id="LOCAL-00001" summary="@felipesergio iniciando ajustes">
       <created>1595182092894</created>
