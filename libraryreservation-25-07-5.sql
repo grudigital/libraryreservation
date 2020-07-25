@@ -2,10 +2,10 @@
 -- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Tempo de geração: 25/07/2020 às 21:15
+-- Host: 127.0.0.1
+-- Tempo de geração: 25-Jul-2020 às 23:38
 -- Versão do servidor: 10.4.13-MariaDB
--- Versão do PHP: 7.4.7
+-- versão do PHP: 7.4.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `admin`
+-- Estrutura da tabela `admin`
 --
 
 CREATE TABLE `admin` (
@@ -36,7 +36,7 @@ CREATE TABLE `admin` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Despejando dados para a tabela `admin`
+-- Extraindo dados da tabela `admin`
 --
 
 INSERT INTO `admin` (`id`, `nome`, `email`, `senha`, `cadastroem`) VALUES
@@ -46,7 +46,7 @@ INSERT INTO `admin` (`id`, `nome`, `email`, `senha`, `cadastroem`) VALUES
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `languages`
+-- Estrutura da tabela `languages`
 --
 
 CREATE TABLE `languages` (
@@ -57,7 +57,7 @@ CREATE TABLE `languages` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Despejando dados para a tabela `languages`
+-- Extraindo dados da tabela `languages`
 --
 
 INSERT INTO `languages` (`id`, `english`, `germany`, `italy`) VALUES
@@ -87,20 +87,20 @@ INSERT INTO `languages` (`id`, `english`, `germany`, `italy`) VALUES
 (24, 'tessere@khi.fi.it', 'tessere@khi.fi.it', 'tessere@khi.fi.it'),
 (25, '+39 055 24911-1', '+39 055 24911-1', '+39 055 24911-1'),
 (26, 'The period already has the maximum number of reservations for this day. Try another date or period.', 'Der Zeitraum hat bereits die maximale Anzahl von Reservierungen für diesen Tag. Versuchen Sie es mit einem anderen Datum oder Zeitraum.', 'Il periodo ha già il numero massimo di prenotazioni per questo giorno. Prova un\'altra data o un altro periodo.'),
-(27, 'Number of card', NULL, NULL),
-(28, 'Name', NULL, NULL),
-(29, 'Surname', NULL, NULL),
-(30, 'Email Address', NULL, NULL),
-(31, 'Date', NULL, NULL),
-(32, 'Period', NULL, NULL),
-(33, 'Morning (9:00-12:00)', NULL, NULL),
-(34, 'Afternoon (13:00-17:00)', NULL, NULL),
-(35, 'Reserve', NULL, NULL);
+(27, 'Number of card', 'Nummer der Karte', 'Numero di carta'),
+(28, 'Name', 'Name', 'Nome'),
+(29, 'Surname', 'Nachname', 'Cognome'),
+(30, 'Email Address', 'E-Mail-Addresse', 'Indirizzo email'),
+(31, 'Date', 'Datum', 'Data'),
+(32, 'Period', 'Zeitraum', 'Periodo'),
+(33, 'Morning (9:00-12:00)', 'Morgen (9: 00-12: 00 Uhr)', 'Mattina (9: 00-12: 00)'),
+(34, 'Afternoon (13:00-17:00)', 'Nachmittag (13: 00-17: 00 Uhr)', 'Pomeriggio (13: 00-17: 00)'),
+(35, 'Reserve', 'Reservieren', 'Riserva');
 
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `reservas`
+-- Estrutura da tabela `reservas`
 --
 
 CREATE TABLE `reservas` (
@@ -115,7 +115,7 @@ CREATE TABLE `reservas` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Despejando dados para a tabela `reservas`
+-- Extraindo dados da tabela `reservas`
 --
 
 INSERT INTO `reservas` (`id`, `codigo`, `nome`, `sobrenome`, `email`, `data`, `periodo`, `cadastroem`) VALUES
@@ -129,12 +129,18 @@ INSERT INTO `reservas` (`id`, `codigo`, `nome`, `sobrenome`, `email`, `data`, `p
 (130, '72', NULL, NULL, NULL, NULL, NULL, '2020-07-25'),
 (131, '38', NULL, NULL, NULL, NULL, NULL, '2020-07-25'),
 (132, '77', NULL, NULL, NULL, NULL, NULL, '2020-07-25'),
-(133, '76', NULL, NULL, NULL, NULL, NULL, '2020-07-25');
+(133, '76', NULL, NULL, NULL, NULL, NULL, '2020-07-25'),
+(134, '82', NULL, NULL, NULL, NULL, NULL, '2020-07-25'),
+(135, '8', NULL, NULL, NULL, NULL, NULL, '2020-07-25'),
+(136, '7', NULL, NULL, NULL, NULL, NULL, '2020-07-25'),
+(137, '5', NULL, NULL, NULL, NULL, NULL, '2020-07-25'),
+(138, '8', NULL, NULL, NULL, NULL, NULL, '2020-07-25'),
+(139, '44', NULL, NULL, NULL, NULL, NULL, '2020-07-25');
 
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `usuarios`
+-- Estrutura da tabela `usuarios`
 --
 
 CREATE TABLE `usuarios` (
@@ -145,7 +151,7 @@ CREATE TABLE `usuarios` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Despejando dados para a tabela `usuarios`
+-- Extraindo dados da tabela `usuarios`
 --
 
 INSERT INTO `usuarios` (`id`, `codigo`, `nome`, `sobrenome`) VALUES
@@ -9938,35 +9944,35 @@ INSERT INTO `usuarios` (`id`, `codigo`, `nome`, `sobrenome`) VALUES
 (9780, '9800', 'Bianca', 'Scapecchi');
 
 --
--- Índices de tabelas apagadas
+-- Índices para tabelas despejadas
 --
 
 --
--- Índices de tabela `admin`
+-- Índices para tabela `admin`
 --
 ALTER TABLE `admin`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices de tabela `languages`
+-- Índices para tabela `languages`
 --
 ALTER TABLE `languages`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices de tabela `reservas`
+-- Índices para tabela `reservas`
 --
 ALTER TABLE `reservas`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices de tabela `usuarios`
+-- Índices para tabela `usuarios`
 --
 ALTER TABLE `usuarios`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT de tabelas apagadas
+-- AUTO_INCREMENT de tabelas despejadas
 --
 
 --
@@ -9985,7 +9991,7 @@ ALTER TABLE `languages`
 -- AUTO_INCREMENT de tabela `reservas`
 --
 ALTER TABLE `reservas`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=134;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=140;
 
 --
 -- AUTO_INCREMENT de tabela `usuarios`
