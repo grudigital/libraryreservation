@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 25-Jul-2020 às 18:26
+-- Tempo de geração: 25-Jul-2020 às 18:55
 -- Versão do servidor: 10.4.13-MariaDB
 -- versão do PHP: 7.4.7
 
@@ -100,7 +100,7 @@ CREATE TABLE `reservas` (
   `sobrenome` varchar(60) COLLATE utf8_unicode_ci DEFAULT NULL,
   `email` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
   `data` date DEFAULT NULL,
-  `periodo` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `periodo` int(10) DEFAULT NULL COMMENT '1-morning/manha\r\n2.afternoon/tarde\r\n3.day/dia inteiro',
   `cadastroem` date DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
@@ -109,88 +109,8 @@ CREATE TABLE `reservas` (
 --
 
 INSERT INTO `reservas` (`id`, `codigo`, `nome`, `sobrenome`, `email`, `data`, `periodo`, `cadastroem`) VALUES
-(30, '7', 'Felipe', 'Sergio', 'email@email.com.br', '2020-07-06', 'morning', '2020-07-19'),
-(34, '7', 'Felipe', 'Sergio', 'felipe@outlook.com', '2020-07-19', 'afternoon', '2020-07-19'),
-(22, '7', 'felipe', 'sergio', 'email@email.com.br', '2020-07-30', 'tarde', '2020-07-09'),
-(53, '7', 'Felipe', 'Sergio', '', '2020-07-22', 'morning', '2020-07-21'),
-(56, '7', 'Felipe', 'Sergio', 'felipesergio@outlook.com', '2020-07-21', 'morning', '2020-07-21'),
-(39, '10', NULL, NULL, NULL, NULL, NULL, '2020-07-19'),
-(37, '7', 'Felipe', 'Sergio', 'felipesergio@outlook.com', '2020-07-22', 'afternoon', '2020-07-21'),
-(43, '85', NULL, NULL, NULL, NULL, NULL, '2020-07-19'),
-(42, '11', NULL, NULL, NULL, NULL, NULL, '2020-07-19'),
-(41, '10', NULL, NULL, NULL, NULL, NULL, '2020-07-19'),
-(50, '7', 'Felipe', 'Sergio', 'felipesergio@outlook.com', '2020-07-10', 'afternoon', '2020-07-21'),
-(45, '75', NULL, NULL, NULL, NULL, NULL, '2020-07-19'),
-(46, '7', 'Rafael', 'uriarte', '', '2020-07-21', 'morning', '2020-07-21'),
-(47, '7', 'Rafael', 'uriarte', '', '2020-07-21', 'afternoon', '2020-07-22'),
-(49, '4', NULL, NULL, NULL, NULL, NULL, '2020-07-21'),
-(51, '7', 'Felipe', 'Sergio', 'felipesergio@outlook.com', '2020-07-24', 'afternoon', '2020-07-30'),
-(55, '7', 'Felipe', 'Sergio', 'felipesergio@outlook.com', '2020-07-20', 'morning', '2020-07-25'),
-(57, '7', NULL, NULL, NULL, NULL, NULL, '2020-07-21'),
-(58, '7', NULL, NULL, NULL, NULL, NULL, '2020-07-21'),
-(59, '7', 'Felipe', 'Sergio', 'felipesergio@outlook.com', '2020-07-25', 'morning', '2020-07-22'),
-(60, '7', 'Felipe', 'Sergio', 'felipesergio@outlook.com', '2020-07-24', 'morning', '2020-07-23'),
-(61, '7', 'Felipe', 'Sergio', 'felipesergio@outlook.com', '2020-07-23', 'morning', '2020-07-24'),
-(62, '7', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(63, '7', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(64, '7', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(65, '7', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(66, '7', 'Felipe', 'Sergio', 'felipesergio@outlook.com', '0000-00-00', 'afternoon', '2020-07-23'),
-(67, '7', 'Felipe', 'Sergio', 'felipesergio@outlook.com', '0000-00-00', 'morning', '2020-07-23'),
-(68, '7', 'Felipe', 'Sergio', 'felipesergio@outlook.com', '0000-00-00', 'morning', '2020-07-23'),
-(69, '40', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(70, '40', 'Francesca', 'Serci', 'felipesergio@outlook.com', '0000-00-00', 'morning', '2020-07-23'),
-(71, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '0000-00-00', 'morning', '2020-07-23'),
-(72, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '0000-00-00', 'morning', '2020-07-23'),
-(73, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '0000-00-00', 'morning', '2020-07-23'),
-(74, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '0000-00-00', 'morning', '2020-07-23'),
-(75, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '0000-00-00', 'morning', '2020-07-23'),
-(76, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '0000-00-00', 'afternoon', '2020-07-23'),
-(77, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '0000-00-00', 'afternoon', '2020-07-23'),
-(78, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '0000-00-00', 'afternoon', '2020-07-23'),
-(79, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '0000-00-00', 'morning', '2020-07-23'),
-(80, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '0000-00-00', 'morning', '2020-07-23'),
-(81, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '0000-00-00', 'morning', '2020-07-23'),
-(82, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '0000-00-00', 'morning', '2020-07-23'),
-(83, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', NULL, 'morning', '2020-07-23'),
-(84, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '2020-07-29', 'morning', '2020-07-23'),
-(85, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '2020-07-29', 'morning', '2020-07-23'),
-(86, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '2020-07-28', 'morning', '2020-07-23'),
-(87, '22', 'Almut', 'Stolte', 'felipesergio@outlook.com', '2020-07-29', 'morning', '2020-07-23'),
-(88, '7', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(89, '5', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(90, '5', 'Maria Pilar', 'Irala Hortal', 'felipesergio@outlook.com', '2020-07-30', 'morning', '2020-07-23'),
-(91, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '2020-07-29', 'morning', '2020-07-23'),
-(92, '4', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(93, '4', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(94, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '2020-07-29', 'morning', '2020-07-23'),
-(95, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '2020-07-29', 'morning', '2020-07-23'),
-(96, '7', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(97, '5', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(98, '7', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(99, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '2020-07-29', 'afternoon', '2020-07-23'),
-(100, '7', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(101, '5', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(102, '2', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(103, '7', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(104, '85', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(105, '84', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(106, '7', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(107, '2', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(108, '7', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(109, '7', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(110, '2', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(111, '800', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(112, '2', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(113, '3', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(114, '2', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(115, '2', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(116, '100', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(117, '46', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(118, '100', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(119, '100', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(120, '100', NULL, NULL, NULL, NULL, NULL, '2020-07-23'),
-(121, '100', NULL, NULL, NULL, NULL, NULL, '2020-07-23');
+(123, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '2020-07-28', 1, '2020-07-25'),
+(124, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '2020-07-29', 2, '2020-07-25');
 
 -- --------------------------------------------------------
 
@@ -10046,7 +9966,7 @@ ALTER TABLE `languages`
 -- AUTO_INCREMENT de tabela `reservas`
 --
 ALTER TABLE `reservas`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=122;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=125;
 
 --
 -- AUTO_INCREMENT de tabela `usuarios`

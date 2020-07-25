@@ -88,7 +88,15 @@
                     while ($row = mysqli_fetch_assoc($result)) {
                         echo "<tr>";
                         echo "<td>$row[datareserva]</td>";
-                        echo "<td>$row[periodo]</td>";
+                        if($row['periodo']=='1'){
+                            echo "<td>Morning</td>";
+                        }
+                        else if($row['periodo']=='2'){
+                            echo "<td>Afternoon</td>";
+                        }
+                        else{
+                            echo "<td>All day</td>";
+                        }
                         echo "<td><a href='functions/cancel-step2.php?id=$row[id]'><button class='btn btn-danger btn-lg btn-block botao-cancelar' type='button'>Cancel Reservation</button></a></td>";
                         echo "</tr>";
                     }
@@ -157,7 +165,15 @@
                     while ($row = mysqli_fetch_assoc($result)) {
                         echo "<tr>";
                         echo "<td>$row[datareserva]</td>";
-                        echo "<td>$row[periodo]</td>";
+                        if($row['periodo']=='1'){
+                            echo "<td>Morning</td>";
+                        }
+                        else if($row['periodo']=='2'){
+                            echo "<td>Afternoon</td>";
+                        }
+                        else{
+                            echo "<td>All day</td>";
+                        }
                         echo "</tr>";
                     }
                 }

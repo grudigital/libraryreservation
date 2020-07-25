@@ -83,15 +83,15 @@
                         echo "<h4 class='mb-3'>Zeitraum</h4>";
                         echo "<div class='d-block my-3'>";
                         echo "<div class='form-check'>";
-                        echo "<input class='form-check-input' type='radio' name='periodo' id='exampleRadios1' value='morning' checked>";
+                        echo "<input class='form-check-input' type='radio' name='periodo' id='exampleRadios1' value='1' checked>";
                         echo "<label class='form-check-label' for='exampleRadios1'>Morgen (9:00-12:00)</label>";
                         echo "</div>";
                         echo "<div class='form-check'>";
-                        echo "<input class='form-check-input' type='radio' name='periodo' id='exampleRadios2' value='afternoon'>";
+                        echo "<input class='form-check-input' type='radio' name='periodo' id='exampleRadios2' value='2'>";
                         echo "<label class='form-check-label' for='exampleRadios2'>Nachmittag (13:00-17:00)</label>";
                         echo "</div>";
 //                        echo "<div class='form-check'>";
-//                        echo "<input class='form-check-input' type='radio' name='periodo' id='exampleRadios2' value='day'>";
+//                        echo "<input class='form-check-input' type='radio' name='periodo' id='exampleRadios2' value='3'>";
 //                        echo "<label class='form-check-label' for='exampleRadios2'>Ganzer Tag (09:00-17:00)</label>";
 //                        echo "</div>";
                         echo "<div class='custom-control custom-radio'>";
