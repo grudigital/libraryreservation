@@ -21,9 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio correcao de alteracao entre idiomas, e correcao da pagina de mensagem de cancelamento com a possibilidade de cancelamento">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/profile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/profile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/includes/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/includes/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ger/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ita/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/contact.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +85,7 @@
       <workItem from="1595554516482" duration="3438000" />
       <workItem from="1595598340871" duration="4242000" />
       <workItem from="1595605333692" duration="856000" />
+      <workItem from="1595693589940" duration="389000" />
     </task>
     <task id="LOCAL-00001" summary="@felipesergio iniciando ajustes">
       <created>1595182092894</created>
