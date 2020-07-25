@@ -19,14 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio bloqueio de 2 registros da mesma pessoa para o mesmo periodo.">
-      <change afterPath="$PROJECT_DIR$/eng/reservation-exceeded-period.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ger/reservation-exceeded-period.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ita/reservation-exceeded-period.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/functions/reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/functions/reservation-step2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/functions/reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/functions/reservation-step2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/functions/reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/functions/reservation-step2.php" afterDir="false" />
+    <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio trava de 26 participantes por periodo dentro de um dia.">
+      <change afterPath="$PROJECT_DIR$/._libraryreservation-25-07-4.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libraryreservation-25-07-4.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libraryreservation-25-07-2.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +86,7 @@
       <workItem from="1595605333692" duration="856000" />
       <workItem from="1595693589940" duration="389000" />
       <workItem from="1595694316628" duration="3052000" />
-      <workItem from="1595700466509" duration="2417000" />
+      <workItem from="1595700466509" duration="3041000" />
     </task>
     <task id="LOCAL-00001" summary="@felipesergio iniciando ajustes">
       <created>1595182092894</created>
@@ -281,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595696965540</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="@felipesergio trava de 26 participantes por periodo dentro de um dia.">
+      <created>1595703137264</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1595703137264</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +323,8 @@
     <MESSAGE value="@felipesergio alteração de e-mail + campos telefone e email no admin." />
     <MESSAGE value="@felipesergio atualização de periodos manha tarde noite pegando os dados corretos do idioma. Foi atualizado o banco de dados e zerado todas as reservas para essa tarefa." />
     <MESSAGE value="@felipesergio bloqueio de 2 registros da mesma pessoa para o mesmo periodo." />
-    <option name="LAST_COMMIT_MESSAGE" value="@felipesergio bloqueio de 2 registros da mesma pessoa para o mesmo periodo." />
+    <MESSAGE value="@felipesergio trava de 26 participantes por periodo dentro de um dia." />
+    <option name="LAST_COMMIT_MESSAGE" value="@felipesergio trava de 26 participantes por periodo dentro de um dia." />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595345407406">
@@ -331,11 +335,12 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595345518608" />
-    <state x="-1091" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595696971120">
-      <screen x="-1366" y="0" width="1366" height="728" />
+    <state x="290" y="131" key="Vcs.Push.Dialog.v2" timestamp="1595703163580">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="-1091" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1595696971120" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595696185234" />
+    <state x="290" y="131" key="Vcs.Push.Dialog.v2/0.23.1440.811@0.23.1440.811" timestamp="1595703163580" />
     <state x="290" y="131" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1595558040510" />
     <state x="73" y="167" width="1182" height="544" key="dock-window-1" timestamp="1595096022648">
       <screen x="0" y="0" width="1366" height="728" />

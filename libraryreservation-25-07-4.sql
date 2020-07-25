@@ -2,10 +2,10 @@
 -- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Tempo de geração: 25-Jul-2020 às 18:55
+-- Host: localhost
+-- Tempo de geração: 25/07/2020 às 21:15
 -- Versão do servidor: 10.4.13-MariaDB
--- versão do PHP: 7.4.7
+-- Versão do PHP: 7.4.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `admin`
+-- Estrutura para tabela `admin`
 --
 
 CREATE TABLE `admin` (
@@ -36,7 +36,7 @@ CREATE TABLE `admin` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Extraindo dados da tabela `admin`
+-- Despejando dados para a tabela `admin`
 --
 
 INSERT INTO `admin` (`id`, `nome`, `email`, `senha`, `cadastroem`) VALUES
@@ -46,7 +46,7 @@ INSERT INTO `admin` (`id`, `nome`, `email`, `senha`, `cadastroem`) VALUES
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `languages`
+-- Estrutura para tabela `languages`
 --
 
 CREATE TABLE `languages` (
@@ -57,7 +57,7 @@ CREATE TABLE `languages` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Extraindo dados da tabela `languages`
+-- Despejando dados para a tabela `languages`
 --
 
 INSERT INTO `languages` (`id`, `english`, `germany`, `italy`) VALUES
@@ -85,12 +85,22 @@ INSERT INTO `languages` (`id`, `english`, `germany`, `italy`) VALUES
 (22, 'You already have 4 reservations for the 1 month period.', 'Sie haben bereits 4 Reservierungen für den Zeitraum von 1 Monat.', 'Hai già 4 prenotazioni per il periodo di 1 mese.'),
 (23, 'You already have a reservation for a period on this day. Please choose a different day.', 'Sie haben an diesem Tag bereits eine Reservierung für einen bestimmten Zeitraum. Bitte wählen Sie einen anderen Tag.', 'Hai già una prenotazione per un periodo in questo giorno. Scegli un giorno diverso.'),
 (24, 'tessere@khi.fi.it', 'tessere@khi.fi.it', 'tessere@khi.fi.it'),
-(25, '+39 055 24911-1', '+39 055 24911-1', '+39 055 24911-1');
+(25, '+39 055 24911-1', '+39 055 24911-1', '+39 055 24911-1'),
+(26, 'The period already has the maximum number of reservations for this day. Try another date or period.', 'Der Zeitraum hat bereits die maximale Anzahl von Reservierungen für diesen Tag. Versuchen Sie es mit einem anderen Datum oder Zeitraum.', 'Il periodo ha già il numero massimo di prenotazioni per questo giorno. Prova un\'altra data o un altro periodo.'),
+(27, 'Number of card', NULL, NULL),
+(28, 'Name', NULL, NULL),
+(29, 'Surname', NULL, NULL),
+(30, 'Email Address', NULL, NULL),
+(31, 'Date', NULL, NULL),
+(32, 'Period', NULL, NULL),
+(33, 'Morning (9:00-12:00)', NULL, NULL),
+(34, 'Afternoon (13:00-17:00)', NULL, NULL),
+(35, 'Reserve', NULL, NULL);
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `reservas`
+-- Estrutura para tabela `reservas`
 --
 
 CREATE TABLE `reservas` (
@@ -105,17 +115,26 @@ CREATE TABLE `reservas` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Extraindo dados da tabela `reservas`
+-- Despejando dados para a tabela `reservas`
 --
 
 INSERT INTO `reservas` (`id`, `codigo`, `nome`, `sobrenome`, `email`, `data`, `periodo`, `cadastroem`) VALUES
 (123, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '2020-07-28', 1, '2020-07-25'),
-(124, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '2020-07-29', 2, '2020-07-25');
+(124, '7', 'Francesca', 'Paoli', 'felipesergio@outlook.com', '2020-07-28', 2, '2020-07-25'),
+(125, '5', 'Maria Pilar', 'Irala Hortal', 'felipesergio@outlook.com', '2020-07-28', 1, '2020-07-25'),
+(126, '9', 'Angela', 'Oberer', 'contato@pontofacilba.com.br', '2020-07-28', 1, '2020-07-25'),
+(127, '12', 'Lara', 'Conte', 'felipesergio@outlook.com', '2020-07-28', 1, '2020-07-25'),
+(128, '9', NULL, NULL, NULL, NULL, NULL, '2020-07-25'),
+(129, '99', 'Alessandra', 'Severi', 'felipesergio@outlook.com', '2020-07-28', 1, '2020-07-25'),
+(130, '72', NULL, NULL, NULL, NULL, NULL, '2020-07-25'),
+(131, '38', NULL, NULL, NULL, NULL, NULL, '2020-07-25'),
+(132, '77', NULL, NULL, NULL, NULL, NULL, '2020-07-25'),
+(133, '76', NULL, NULL, NULL, NULL, NULL, '2020-07-25');
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `usuarios`
+-- Estrutura para tabela `usuarios`
 --
 
 CREATE TABLE `usuarios` (
@@ -126,7 +145,7 @@ CREATE TABLE `usuarios` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Extraindo dados da tabela `usuarios`
+-- Despejando dados para a tabela `usuarios`
 --
 
 INSERT INTO `usuarios` (`id`, `codigo`, `nome`, `sobrenome`) VALUES
@@ -9919,35 +9938,35 @@ INSERT INTO `usuarios` (`id`, `codigo`, `nome`, `sobrenome`) VALUES
 (9780, '9800', 'Bianca', 'Scapecchi');
 
 --
--- Índices para tabelas despejadas
+-- Índices de tabelas apagadas
 --
 
 --
--- Índices para tabela `admin`
+-- Índices de tabela `admin`
 --
 ALTER TABLE `admin`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `languages`
+-- Índices de tabela `languages`
 --
 ALTER TABLE `languages`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `reservas`
+-- Índices de tabela `reservas`
 --
 ALTER TABLE `reservas`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `usuarios`
+-- Índices de tabela `usuarios`
 --
 ALTER TABLE `usuarios`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT de tabelas despejadas
+-- AUTO_INCREMENT de tabelas apagadas
 --
 
 --
@@ -9960,13 +9979,13 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT de tabela `languages`
 --
 ALTER TABLE `languages`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 
 --
 -- AUTO_INCREMENT de tabela `reservas`
 --
 ALTER TABLE `reservas`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=125;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=134;
 
 --
 -- AUTO_INCREMENT de tabela `usuarios`
