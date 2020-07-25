@@ -47,7 +47,7 @@
                     $sql = "select id, english FROM languages where id=24";
                     $result = mysqli_query($conn, $sql);
                     while ($row = mysqli_fetch_assoc($result)) {
-                        echo "$row[english]:";
+                        echo "$row[english]";
                     }
                     mysqli_close($conn);
                     ?>
@@ -69,7 +69,7 @@
                     $sql = "select id, english FROM languages where id=25";
                     $result = mysqli_query($conn, $sql);
                     while ($row = mysqli_fetch_assoc($result)) {
-                        echo "$row[english]:";
+                        echo "$row[english]";
                     }
                     mysqli_close($conn);
                     ?>

@@ -2,10 +2,10 @@
 -- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Tempo de geração: 24/07/2020 às 05:08
+-- Host: 127.0.0.1
+-- Tempo de geração: 25-Jul-2020 às 18:26
 -- Versão do servidor: 10.4.13-MariaDB
--- Versão do PHP: 7.4.7
+-- versão do PHP: 7.4.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `admin`
+-- Estrutura da tabela `admin`
 --
 
 CREATE TABLE `admin` (
@@ -36,7 +36,7 @@ CREATE TABLE `admin` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Despejando dados para a tabela `admin`
+-- Extraindo dados da tabela `admin`
 --
 
 INSERT INTO `admin` (`id`, `nome`, `email`, `senha`, `cadastroem`) VALUES
@@ -46,7 +46,7 @@ INSERT INTO `admin` (`id`, `nome`, `email`, `senha`, `cadastroem`) VALUES
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `languages`
+-- Estrutura da tabela `languages`
 --
 
 CREATE TABLE `languages` (
@@ -57,7 +57,7 @@ CREATE TABLE `languages` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Despejando dados para a tabela `languages`
+-- Extraindo dados da tabela `languages`
 --
 
 INSERT INTO `languages` (`id`, `english`, `germany`, `italy`) VALUES
@@ -83,12 +83,14 @@ INSERT INTO `languages` (`id`, `english`, `germany`, `italy`) VALUES
 (20, 'Your reservation has been successfully registered. You will receive a confirmation email to the address you provided. Thank you!', 'Ihre Reservierung wurde erfolgreich registriert. Sie werden eine Bestätigungs-E-Mail an die von Ihnen angegebene Adresseerhalten.Danke!', 'La sua prenotazione è stata registrata con successo, riceverà una mail di conferma all indirizzo da Lei fornito. Grazie!'),
 (21, 'Previous Reservations', 'Vorherige Reservierungen', 'Prenotazioni precedenti'),
 (22, 'You already have 4 reservations for the 1 month period.', 'Sie haben bereits 4 Reservierungen für den Zeitraum von 1 Monat.', 'Hai già 4 prenotazioni per il periodo di 1 mese.'),
-(23, 'You already have a reservation for a period on this day. Please choose a different day.', 'Sie haben an diesem Tag bereits eine Reservierung für einen bestimmten Zeitraum. Bitte wählen Sie einen anderen Tag.', 'Hai già una prenotazione per un periodo in questo giorno. Scegli un giorno diverso.');
+(23, 'You already have a reservation for a period on this day. Please choose a different day.', 'Sie haben an diesem Tag bereits eine Reservierung für einen bestimmten Zeitraum. Bitte wählen Sie einen anderen Tag.', 'Hai già una prenotazione per un periodo in questo giorno. Scegli un giorno diverso.'),
+(24, 'tessere@khi.fi.it', 'tessere@khi.fi.it', 'tessere@khi.fi.it'),
+(25, '+39 055 24911-1', '+39 055 24911-1', '+39 055 24911-1');
 
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `reservas`
+-- Estrutura da tabela `reservas`
 --
 
 CREATE TABLE `reservas` (
@@ -103,7 +105,7 @@ CREATE TABLE `reservas` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Despejando dados para a tabela `reservas`
+-- Extraindo dados da tabela `reservas`
 --
 
 INSERT INTO `reservas` (`id`, `codigo`, `nome`, `sobrenome`, `email`, `data`, `periodo`, `cadastroem`) VALUES
@@ -193,7 +195,7 @@ INSERT INTO `reservas` (`id`, `codigo`, `nome`, `sobrenome`, `email`, `data`, `p
 -- --------------------------------------------------------
 
 --
--- Estrutura para tabela `usuarios`
+-- Estrutura da tabela `usuarios`
 --
 
 CREATE TABLE `usuarios` (
@@ -204,7 +206,7 @@ CREATE TABLE `usuarios` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Despejando dados para a tabela `usuarios`
+-- Extraindo dados da tabela `usuarios`
 --
 
 INSERT INTO `usuarios` (`id`, `codigo`, `nome`, `sobrenome`) VALUES
@@ -9997,35 +9999,35 @@ INSERT INTO `usuarios` (`id`, `codigo`, `nome`, `sobrenome`) VALUES
 (9780, '9800', 'Bianca', 'Scapecchi');
 
 --
--- Índices de tabelas apagadas
+-- Índices para tabelas despejadas
 --
 
 --
--- Índices de tabela `admin`
+-- Índices para tabela `admin`
 --
 ALTER TABLE `admin`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices de tabela `languages`
+-- Índices para tabela `languages`
 --
 ALTER TABLE `languages`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices de tabela `reservas`
+-- Índices para tabela `reservas`
 --
 ALTER TABLE `reservas`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices de tabela `usuarios`
+-- Índices para tabela `usuarios`
 --
 ALTER TABLE `usuarios`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT de tabelas apagadas
+-- AUTO_INCREMENT de tabelas despejadas
 --
 
 --
@@ -10038,7 +10040,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT de tabela `languages`
 --
 ALTER TABLE `languages`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT de tabela `reservas`
