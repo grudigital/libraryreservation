@@ -81,7 +81,7 @@
       <workItem from="1595598340871" duration="4242000" />
       <workItem from="1595605333692" duration="856000" />
       <workItem from="1595693589940" duration="389000" />
-      <workItem from="1595694316628" duration="3052000" />
+      <workItem from="1595694316628" duration="3742000" />
     </task>
     <task id="LOCAL-00001" summary="@felipesergio iniciando ajustes">
       <created>1595182092894</created>
@@ -272,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595696965540</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="@felipesergio bloqueio de 2 registros da mesma pessoa para o mesmo periodo.">
+      <created>1595697612833</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1595697612833</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,10 +329,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595345518608" />
-    <state x="-1091" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595696971120">
+    <state x="-1091" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595697616962">
       <screen x="-1366" y="0" width="1366" height="728" />
     </state>
-    <state x="-1091" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1595696971120" />
+    <state x="-1091" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1595697616962" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595696185234" />
     <state x="290" y="131" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1595558040510" />
     <state x="73" y="167" width="1182" height="544" key="dock-window-1" timestamp="1595096022648">
