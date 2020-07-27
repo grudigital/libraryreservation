@@ -10,8 +10,8 @@
 //$dbname = "grudit09_libraryreservation";
 
 $servidor = "localhost";
-$usuario = "root";
-$senha = "";
+$usuario = "grudigital";
+$senha = "grudigital";
 $dbname = "libraryreservation";
 
 $conn = mysqli_connect($servidor, $usuario, $senha, $dbname);

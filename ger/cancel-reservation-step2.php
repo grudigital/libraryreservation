@@ -153,7 +153,7 @@
                 <?php
                 require("../admin/connections/conn.php");
                 $pegaid = (int)$_GET['codigo'];
-                $sql = "select id, codigo, nome, sobrenome, email, date_format(data, '%d/%m/%Y') as datareserva, periodo, cadastroem FROM reservas where codigo = '$pegaid' and data != 'null' and data < date_sub(CURRENT_DATE(),interval -1 day) order by data desc";
+                $sql = "select id, codigo, nome, sobrenome, email, date_format(data, '%d/%m/%Y') as datareserva, periodo, cadastroem FROM reservas where codigo = '$pegaid' and data != 'null' order by data desc";
                 $result = mysqli_query($conn, $sql);
                 $num_rows = mysqli_num_rows($result);
                 if ($num_rows == 0) {
