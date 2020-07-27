@@ -49,7 +49,7 @@
                     <label for="cancel">
                         <?php
                         require("../admin/connections/conn.php");
-                        $sql = "select id, italy FROM languages where id=24";
+                        $sql = "select id, italy FROM languages where id=27";
                         $result = mysqli_query($conn, $sql);
                         while ($row = mysqli_fetch_assoc($result)) {
                             echo "$row[italy]";
