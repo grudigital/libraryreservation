@@ -8,7 +8,7 @@ $result2 = mysqli_query($conn, $validacaoquantidade);
 $num_rows2 = mysqli_num_rows($result2);
 
 if ($num_rows2 >= '4') {
-    echo "<meta http-equiv='refresh' content=0;url='../reservation-exceeded.php'>";
+    echo "<meta http-equiv='refresh' content=0;url='../reservation-exceeded.php?id=$codigo'>";
 } else {
 
     /*Validacao de codigo / nome*/
