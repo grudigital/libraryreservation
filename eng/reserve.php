@@ -62,6 +62,27 @@
                         </div>
                         <input type="text" name="codigo" class="form-control" id="Card Number" required>
                     </div>
+
+                </div>
+                <div class="mb-3">
+                    <label class="username">
+                        <?php
+                        require("../admin/connections/conn.php");
+                        $sql = "select id, english FROM languages where id=29";
+                        $result = mysqli_query($conn, $sql);
+                        while ($row = mysqli_fetch_assoc($result)) {
+                            echo "$row[english]";
+                        }
+                        mysqli_close($conn);
+                        ?>
+                    </label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">##</span>
+                        </div>
+                        <input type="text" name="sobrenome" class="form-control" id="sobrenome" required>
+                    </div>
+
                 </div>
 
                         <button class="btn btn-primary btn-lg btn-block" type="submit">

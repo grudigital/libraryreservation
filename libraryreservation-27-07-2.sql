@@ -2,10 +2,10 @@
 -- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Tempo de geração: 25-Jul-2020 às 23:38
+-- Host: localhost
+-- Tempo de geração: 27/07/2020 às 17:01
 -- Versão do servidor: 10.4.13-MariaDB
--- versão do PHP: 7.4.7
+-- Versão do PHP: 7.4.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `admin`
+-- Estrutura para tabela `admin`
 --
 
 CREATE TABLE `admin` (
@@ -36,17 +36,18 @@ CREATE TABLE `admin` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Extraindo dados da tabela `admin`
+-- Despejando dados para a tabela `admin`
 --
 
 INSERT INTO `admin` (`id`, `nome`, `email`, `senha`, `cadastroem`) VALUES
-(1, 'Felipe', 'felipe@grudigital.com.br', '21232f297a57a5a743894a0e4a801fc3', '2020-07-09 17:29:43'),
-(5, 'fdgdf', 'gdfg', 'bf22a1d0acfca4af517e1417a80e92d1', '2020-07-21 18:56:41');
+(6, '', 'felipe@grudigital.com.br', '21232f297a57a5a743894a0e4a801fc3', '2020-07-27 09:35:29'),
+(8, 'Ester Fasino', 'fasino@khi.fi.it', 'fa258e7e7a0d43c4266a01029dc2bdfa', '2020-07-27 09:36:06'),
+(9, 'Rafael', 'rafael.uriarte@gmail.com', '02e9b59bef020511becd90e60e108e17', '2020-07-27 09:36:21');
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `languages`
+-- Estrutura para tabela `languages`
 --
 
 CREATE TABLE `languages` (
@@ -57,33 +58,33 @@ CREATE TABLE `languages` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Extraindo dados da tabela `languages`
+-- Despejando dados para a tabela `languages`
 --
 
 INSERT INTO `languages` (`id`, `english`, `germany`, `italy`) VALUES
-(1, 'about', 'Über', 'di'),
-(2, 'Reserve', 'Reservieren', 'Riserva'),
-(3, 'View / Cancel reservation', 'stornieren', 'Annulla'),
-(4, 'contact us', 'Kontakt', 'contatto'),
-(5, 'library reservation', 'Bibliotheksreservierung', 'prenotazione della biblioteca'),
-(6, 'From 3 August 2020 the library of the Kunsthistorisches Institut in Florenz – MPI reopens its doors to registered users, from Monday to Friday, on the basis of online reservation. \r\nIn accordance with the regulations of social distancing, it will be possible to host a maximum of fifty-two people per day, in two slots: from 9 am to 1:15 pm and from 1:45 to 6 pm, with 26 scholars in each slot. In order to allow everyone the opportunity to use the library, please do not book more than four half-day slots per week. \r\nThe details of the regulations are available here (Hyperlink or pdf).', 'Ab 3. August 2020 öffnet die Bibliothek des Kunsthistorischen Instituts in Florenz MPI wieder ihre Türen für registrierte Benutzer, von Montag bis Freitag, und zwar nur nach Online-Reservierung. In Übereinstimmung mit den sozialen Distanzierungsregeln können maximal zweiundfünfzig Personen am Tag Zugang zur Bibliothek erhalten, in zwei slots: am Vormittag 9 bis 13:15 und nachmittags 13:45 bis 18, mit jeweils bis zu 26 Nutzer innen. Um allen die Möglichkeit zu geben, die Bibliothek zu nutzen, buchen Sie bitte nicht mehr als vier Halbtages-Slots pro Woche. ', 'Dal 3 Agosto 2020 la biblioteca del Kunsthistorisches Institut in Florenz MPI riapre le porte ai suoi utenti tesserati, dal lunedì al venerdì. L accesso sarà possibile solo previa prenotazione online. \r\nIn ottemperanza alle norme sul distanziamento sociale, la biblioteca potrà ospitare un numero massimo di cinquantadue persone al giorno, in due slot: uno di mattina, dalle 9 alle 13:15 e uno di pomeriggio dalle 13:45 alle 18h, con l’accesso per 26 studiosi per ciascuno slot. Per consentire a tutti la possibilità di fruizione, si invitano le/i gentili utenti a non prenotare più di quattro slot da mezza giornata.'),
-(7, 'University contact details\r\n', 'Kontaktdaten der Universitat', 'Dati di contatto delluniversità'),
-(8, 'Mail', 'Mail', 'Posta'),
+(1, 'about', 'Über', 'Di'),
+(2, 'Reserve', 'Reservieren', 'Prenota'),
+(3, 'View / Cancel reservation', 'Reservierung ansehen / Stornieren\r\n', 'Vedi / Cancella prenotazione\r\n'),
+(4, 'Contact Us', 'Kontakt', 'Contatto'),
+(5, 'Library Reservation', 'Bibliotheksreservierung', 'Prenotazione della Biblioteca'),
+(6, 'From 3 August 2020 the library of the Kunsthistorisches Institut in Florenz – MPI reopens its doors to registered users, from Monday to Friday, on the basis of online reservation. In accordance with the regulations of social distancing, it will be possible to host a maximum of fifty-two people per day, in two slots: from 9 am to 1:15 pm and from 1:45 to 6 pm, with 26 scholars in each slot. In order to allow everyone the opportunity to use the library, please do not book more than four half-day slots per week. \r\n', 'Ab 3. August 2020 öffnet die Bibliothek des Kunsthistorischen Instituts in Florenz MPI wieder ihre Türen für registrierte Benutzer, von Montag bis Freitag, und zwar nur nach Online-Reservierung. In Übereinstimmung mit den sozialen Distanzierungsregeln können maximal zweiundfünfzig Personen am Tag Zugang zur Bibliothek erhalten, in zwei slots: am Vormittag von 9:00 bis 13:15 und nachmittags von 13:45 bis 18:00, mit jeweils bis zu 26 Nutzer/innen. Um allen die Möglichkeit zu geben, die Bibliothek zu nutzen, buchen Sie bitte nicht mehr als vier Halbtages-Slots pro Woche. \r\n', 'Dal 3 Agosto 2020 la biblioteca del Kunsthistorisches Institut in Florenz MPI riapre le porte ai suoi utenti tesserati, dal lunedì al venerdì. Sarà possibile accedere solo previa prenotazione online. In ottemperanza alle norme sul distanziamento sociale, la biblioteca potrà ospitare un numero massimo di cinquantadue persone al giorno, in due slot: uno di mattina, dalle 9:00 alle 13:15 e uno di pomeriggio dalle 13:45 alle 18:00, con l’accesso per 26 studiosi per ciascuno slot. Per consentire a tutti la possibilità di fruizione, si invitano le/i gentili utenti a non prenotare più di quattro slot da mezza giornata alla settimana.\r\n'),
+(7, 'Contact Details\r\n', 'Kontaktdaten\r\n', 'Contatto\r\n'),
+(8, 'Mail', 'E-Mail', 'Email\r\n'),
 (9, 'Phone', 'Telefon', 'Telefono'),
 (10, 'Cancellation of reservations', 'Stornierung von Reservierungen', 'Annullamento di prenotazioni'),
 (11, 'Insert yout KHI Card Number', 'Geben Sie Ihre KHI-Kartennummer ein', 'Inserisci il numero della tua carta KHI'),
-(12, 'Cancel Reservation', 'Reservierung stornieren', 'Annulla prenotazione'),
-(13, 'Scheduling canceled successfully !!!', 'Planung erfolgreich abgebrochen !!!', 'Pianificazione annullata correttamente !!!'),
+(12, 'View / Cancel Reservation', 'Reservierung ansehen / Stornieren', 'Vedi / Cancella prenotazione'),
+(13, 'Scheduling canceled successfully !!!\r\n', 'Reservierung erfolgreich storniert !!!\r\n', 'Prenotazione annullata correttamente !!!\r\n'),
 (14, 'Date', 'Datum', 'Data'),
-(15, 'Period', 'Zeitraum', 'Periodo'),
+(15, 'Slot\r\n', 'Slot\r\n', 'Slot\r\n'),
 (16, 'Actions', 'Aktionen', 'Azioni'),
-(17, 'Access reservations', 'Zugang zu Reservierungen', 'Accedi alle prenotazioni'),
-(18, 'KHI Card Number', 'KHI-Kartennummer', 'Numero della carta KHI'),
-(19, 'Cancellation of reservations\r\n', 'Stornierung von Reservierungen', 'Annullamento di prenotazioni'),
-(20, 'Your reservation has been successfully registered. You will receive a confirmation email to the address you provided. Thank you!', 'Ihre Reservierung wurde erfolgreich registriert. Sie werden eine Bestätigungs-E-Mail an die von Ihnen angegebene Adresseerhalten.Danke!', 'La sua prenotazione è stata registrata con successo, riceverà una mail di conferma all indirizzo da Lei fornito. Grazie!'),
-(21, 'Previous Reservations', 'Vorherige Reservierungen', 'Prenotazioni precedenti'),
-(22, 'You already have 4 reservations for the 1 month period.', 'Sie haben bereits 4 Reservierungen für den Zeitraum von 1 Monat.', 'Hai già 4 prenotazioni per il periodo di 1 mese.'),
-(23, 'You already have a reservation for a period on this day. Please choose a different day.', 'Sie haben an diesem Tag bereits eine Reservierung für einen bestimmten Zeitraum. Bitte wählen Sie einen anderen Tag.', 'Hai già una prenotazione per un periodo in questo giorno. Scegli un giorno diverso.'),
+(17, 'Access Reservations', 'Zugang zu den Reservierungen\r\n', 'Accedi alle Prenotazioni\r\n'),
+(18, 'KHI Card Number', 'KHI-Kartennummer', 'Numero della tessera KHI\r\n'),
+(19, 'Cancellation of Reservations\r\n', 'Reservierungen Stornieren\r\n', 'Cancella Prenotazioni\r\n'),
+(20, 'Your reservation has been successfully registered. Thank you!', 'Ihre Reservierung wurde erfolgreich registriert. Danke!\r\n', 'La sua prenotazione è stata registrata con successo. Grazie!\r\n'),
+(21, 'All Reservations', 'Alle Reservierungen', 'Tutte le prenotazioni'),
+(22, 'You already have 4 reservations for the 1 week period.\r\n', 'Sie haben bereits 4 Reservierungen für den Zeitraum von 1 Woche.\r\n', 'Hai già 4 prenotazioni per il periodo di 1 settimana.\r\n'),
+(23, 'You already have a reservation on this day. Please choose a different day/slot.', 'Sie haben an diesem Tag bereits eine Reservierung. Wählen Sie bitte einen anderen Tag/Slot.', 'Hai già una prenotazione in questo giorno. Scelga un giorno/slot diverso.'),
 (24, 'tessere@khi.fi.it', 'tessere@khi.fi.it', 'tessere@khi.fi.it'),
 (25, '+39 055 24911-1', '+39 055 24911-1', '+39 055 24911-1'),
 (26, 'The period already has the maximum number of reservations for this day. Try another date or period.', 'Der Zeitraum hat bereits die maximale Anzahl von Reservierungen für diesen Tag. Versuchen Sie es mit einem anderen Datum oder Zeitraum.', 'Il periodo ha già il numero massimo di prenotazioni per questo giorno. Prova un\'altra data o un altro periodo.'),
@@ -91,16 +92,17 @@ INSERT INTO `languages` (`id`, `english`, `germany`, `italy`) VALUES
 (28, 'Name', 'Name', 'Nome'),
 (29, 'Surname', 'Nachname', 'Cognome'),
 (30, 'Email Address', 'E-Mail-Addresse', 'Indirizzo email'),
-(31, 'Date', 'Datum', 'Data'),
-(32, 'Period', 'Zeitraum', 'Periodo'),
-(33, 'Morning (9:00-12:00)', 'Morgen (9: 00-12: 00 Uhr)', 'Mattina (9: 00-12: 00)'),
-(34, 'Afternoon (13:00-17:00)', 'Nachmittag (13: 00-17: 00 Uhr)', 'Pomeriggio (13: 00-17: 00)'),
-(35, 'Reserve', 'Reservieren', 'Riserva');
+(31, 'Date', 'Datum', 'Calendario'),
+(32, 'Slot', 'Slot', 'Slot'),
+(33, 'Morning (09:00-13:15)', 'Morgen (09:00-13:15)', 'Mattina (09:00-13:15)'),
+(34, 'Afternoon (13:45-18:00)', 'Nachmittag (13:45-18:00)', 'Pomeriggio (13:45-18:00)'),
+(35, 'Reserve', 'Reservieren', 'Prenota'),
+(36, 'Divergent code and surname data. Try again.', 'Abweichende Code- und Nachname-Daten. Versuch es noch einmal.', 'Dati divergenti in codice e cognome. Riprova.');
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `reservas`
+-- Estrutura para tabela `reservas`
 --
 
 CREATE TABLE `reservas` (
@@ -115,7 +117,7 @@ CREATE TABLE `reservas` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
--- Extraindo dados da tabela `reservas`
+-- Despejando dados para a tabela `reservas`
 --
 
 INSERT INTO `reservas` (`id`, `codigo`, `nome`, `sobrenome`, `email`, `data`, `periodo`, `cadastroem`) VALUES
@@ -135,12 +137,86 @@ INSERT INTO `reservas` (`id`, `codigo`, `nome`, `sobrenome`, `email`, `data`, `p
 (136, '7', NULL, NULL, NULL, NULL, NULL, '2020-07-25'),
 (137, '5', NULL, NULL, NULL, NULL, NULL, '2020-07-25'),
 (138, '8', NULL, NULL, NULL, NULL, NULL, '2020-07-25'),
-(139, '44', NULL, NULL, NULL, NULL, NULL, '2020-07-25');
+(139, '44', NULL, NULL, NULL, NULL, NULL, '2020-07-25'),
+(140, '100', 'Maria', 'Spanò', 'rafael.uriarte@gmail.com', '2020-07-27', 1, '2020-07-26'),
+(141, '100', 'Maria', 'Spanò', 'rafael.uriarte@gmail.com', '2020-07-27', 2, '2020-07-26'),
+(142, '100', 'Maria', 'Spanò', 'rafael.uriarte@gmail.com', '2020-07-28', 1, '2020-07-26'),
+(202, '200', 'Paola', 'Refice', 'felipe@grudigital.com.br', '2020-07-29', 2, '2020-07-27'),
+(145, '200', 'Paola', 'Refice', 'rafael.uriarte@gmail.com', '2020-07-27', 1, '2020-07-26'),
+(146, '100', 'Maria', 'Spanò', 'felipe@grudigital.com.br', '2020-07-29', 1, '2020-07-26'),
+(148, '100', 'Maria', 'Spanò', 'rafael.uriarte@gmail.com', '2020-08-04', 1, '2020-07-27'),
+(150, '100', 'Maria', 'Spanò', 'rafael.slackware@gmail.com', '2020-07-30', 2, '2020-07-27'),
+(153, '200', 'Paola', 'Refice', 'rafael.uriarte@gmail.com', '2020-07-28', 1, '2020-07-27'),
+(154, '2224', 'Pavla', 'Langer', 'pavla.langer@web.de', '2020-07-28', 1, '2020-07-27'),
+(155, '2224', 'Pavla', 'Langer', 'pavla.langer@web.de', '2020-07-28', 2, '2020-07-27'),
+(194, '5674', 'Mandy', 'Richter', 'richter@khi.fi.it', '2020-07-30', 1, '2020-07-27'),
+(193, '5674', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(158, '6567', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(159, '200', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(160, '600', 'Chiara', 'Calciolari', 'felipe@grudigital.com.br', '2020-07-28', 2, '2020-07-27'),
+(161, '500', 'Saverio', 'Grimaldi', 'felipe@grudigital.com.br', '2020-07-28', 2, '2020-07-27'),
+(162, '', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(163, '150', 'Italo', 'Moretti', 'felipe@grudigital.com.br', '2020-07-28', 2, '2020-07-27'),
+(164, '250', 'Laura', 'Turi', 'felipe@grudigital.com.br', '2020-07-28', 2, '2020-07-27'),
+(165, '350', 'Sara', 'Albertazzi', 'felipe@grudigital.com.br', '2020-07-28', 2, '2020-07-27'),
+(166, '2', 'Johannes', 'Endres', 'felipe@grudigital.com.br', '2020-07-28', 2, '2020-07-27'),
+(167, '3', 'Giovanna', 'Casali', 'felipe@grudigital.com.br', '2020-07-28', 2, '2020-07-27'),
+(168, '20', 'Laura', 'Lametti', 'felipe@grudigital.com.br', '2020-07-28', 2, '2020-07-27'),
+(169, '2', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(170, '23', 'Cecile', 'Maisonneuve', 'rafael.uriarte@gmail.com', '2020-07-28', 2, '2020-07-27'),
+(171, '25', 'Chiara', 'Caruso', 'rafael.uriarte@gmail.com', '2020-07-28', 2, '2020-07-27'),
+(172, '26', 'Giulia', 'Masini', 'felipe@grudigital.com.br', '2020-07-28', 2, '2020-07-27'),
+(173, '27', 'Molly', 'Bourne', 'felipe@grudigital.com.br', '2020-07-28', 2, '2020-07-27'),
+(174, '29', 'Carolina', 'Musante', 'felipe@grudigital.com.br', '2020-07-28', 2, '2020-07-27'),
+(175, '31', 'Alessandra', 'Griffo', 'felipe@grudigital.com.br', '2020-07-28', 2, '2020-07-27'),
+(176, '34', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(177, '35', 'Rosita', 'Comi', 'felipe@grudigital.com.br', '2020-07-28', 2, '2020-07-27'),
+(178, '36', 'Fabiana', 'Bari', 'felipe@grudigital.com.br', '2020-07-28', 2, '2020-07-27'),
+(179, '40', 'Francesca', 'Serci', 'felipe@grudigital.com.br', '2020-07-28', 2, '2020-07-27'),
+(180, '61', 'Alishya', 'Kovalevych', 'felipe@grudigital.com.br', '2020-07-28', 2, '2020-07-27'),
+(181, '63', 'Nicola', 'Soldini', 'rafael.uriarte@gmail.com', '2020-07-28', 2, '2020-07-27'),
+(182, '65', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(183, '75', 'Margaret Ann', 'Zaho', 'felipe@grudigital.com.br', '2020-07-28', 2, '2020-07-27'),
+(184, '101', 'Jin Seon', 'Lee', 'felipe@grudigital.com.br', '2020-07-28', 2, '2020-07-27'),
+(185, '102', 'Federica', 'Cappelli', 'felipe@grudigital.com.br', '2020-07-28', 2, '2020-07-27'),
+(186, '108', 'Barbara', 'Buenger', 'felipe@grudigital.com.br', '2020-07-28', 2, '2020-07-27'),
+(187, '109', 'Giuseppa', 'Zanichelli', 'felipe@grudigital.com.br', '2020-07-28', 2, '2020-07-27'),
+(188, '113', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(189, '8939', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(191, '3050', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(192, '1', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(195, '5674', 'Mandy', 'Richter', 'richter@khi.fi.it', '2020-07-30', 2, '2020-07-27'),
+(198, '5674', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(197, '5674', 'Mandy', 'Richter', 'richter@khi.fi.it', '2020-07-31', 2, '2020-07-27'),
+(199, '1', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(200, '5674', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(201, '5674', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(203, '102', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(204, '1', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(205, '1', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(206, '1', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(207, '1', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(208, '1', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(209, '1', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(210, '2', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(211, '2', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(212, '2', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(213, '2', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(214, '2', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(215, '2', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(216, '2', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(217, '1', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(218, '7', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(219, '7', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(220, 'sdf', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(221, '99', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(222, '1', NULL, NULL, NULL, NULL, NULL, '2020-07-27'),
+(223, '1', NULL, NULL, NULL, NULL, NULL, '2020-07-27');
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `usuarios`
+-- Estrutura para tabela `usuarios`
 --
 
 CREATE TABLE `usuarios` (
@@ -151,7 +227,7 @@ CREATE TABLE `usuarios` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Extraindo dados da tabela `usuarios`
+-- Despejando dados para a tabela `usuarios`
 --
 
 INSERT INTO `usuarios` (`id`, `codigo`, `nome`, `sobrenome`) VALUES
@@ -9944,54 +10020,54 @@ INSERT INTO `usuarios` (`id`, `codigo`, `nome`, `sobrenome`) VALUES
 (9780, '9800', 'Bianca', 'Scapecchi');
 
 --
--- Índices para tabelas despejadas
+-- Índices de tabelas apagadas
 --
 
 --
--- Índices para tabela `admin`
+-- Índices de tabela `admin`
 --
 ALTER TABLE `admin`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `languages`
+-- Índices de tabela `languages`
 --
 ALTER TABLE `languages`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `reservas`
+-- Índices de tabela `reservas`
 --
 ALTER TABLE `reservas`
   ADD PRIMARY KEY (`id`);
 
 --
--- Índices para tabela `usuarios`
+-- Índices de tabela `usuarios`
 --
 ALTER TABLE `usuarios`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT de tabelas despejadas
+-- AUTO_INCREMENT de tabelas apagadas
 --
 
 --
 -- AUTO_INCREMENT de tabela `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT de tabela `languages`
 --
 ALTER TABLE `languages`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 
 --
 -- AUTO_INCREMENT de tabela `reservas`
 --
 ALTER TABLE `reservas`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=140;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=224;
 
 --
 -- AUTO_INCREMENT de tabela `usuarios`
