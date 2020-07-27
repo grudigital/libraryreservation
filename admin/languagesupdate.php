@@ -35,7 +35,6 @@ if ($_SESSION['usuarioNome'] == '') {
             class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php">About</a></li>
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="todaysreservations.php">Today´s
                     reservations</a></li>
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="tomorrowsreservations.php">Tomorrow

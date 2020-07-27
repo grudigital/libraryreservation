@@ -25,7 +25,6 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php">About</a></li>
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="todaysreservations.php">Today´s reservations</a></li>
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="tomorrowsreservations.php">Tomorrow reservation</a></li>
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="allreserve.php">All reservations</a></li>
