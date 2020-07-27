@@ -75,7 +75,11 @@
                 <?php
                 require("../admin/connections/conn.php");
                 $pegaid = (int)$_GET['codigo'];
-                $sql = "select id, codigo, nome, sobrenome, email, date_format(data, '%d/%m/%Y') as datareserva, periodo, cadastroem FROM reservas where codigo = '$pegaid' AND data > DATE_SUB(CURRENT_DATE(),INTERVAL -1 DAY)";
+           if (date('H') < 15) {
+                        $sql = "select id, codigo, nome, sobrenome, email, date_format(data, '%d/%m/%Y') as datareserva, periodo, cadastroem FROM reservas where codigo = '$pegaid' AND data > CURDATE()";
+                }else{
+                        $sql = "select id, codigo, nome, sobrenome, email, date_format(data, '%d/%m/%Y') as datareserva, periodo, cadastroem FROM reservas where codigo = '$pegaid' AND data > DATE_SUB(CURRENT_DATE(),INTERVAL -1 DAY)";
+                }
                 $result = mysqli_query($conn, $sql);
                 $num_rows = mysqli_num_rows($result);
                 if ($num_rows == 0) {
