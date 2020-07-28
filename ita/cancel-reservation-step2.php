@@ -4,15 +4,24 @@
     <?php include 'includes/menu.php' ?>
     <div class="container">
         <div class="row">
-            <div class="col-sm flags-header">
-                <a href="../ger/cancel-reservation-step2.php">DE</a>
-            </div>
-            <div class="col-sm flags-header">
-                <a href="../eng/cancel-reservation-step2.php">EN</a>
-            </div>
-            <div class="col-sm flags-header">
-                <a href="../ita/cancel-reservation-step2.php">IT</a>
-            </div>
+            <?php
+            require("../admin/connections/conn.php");
+            $pegaid = (int)$_GET['codigo'];
+
+
+            echo "<div class='col-sm flags-header'>";
+            echo "<a href='../ger/cancel-reservation-step2.php?codigo=$pegaid'>DE</a>";
+            echo "</div>";
+            echo "<div class='col-sm flags-header'>";
+            echo "<a href='../eng/cancel-reservation-step2.php?codigo=$pegaid'>EN</a>";
+            echo "</div>";
+            echo "<div class='col-sm flags-header'>";
+            echo "<a href='../ita/cancel-reservation-step2.php?codigo=$pegaid'>IT</a>";
+            echo "</div>";
+
+
+            mysqli_close($conn);
+            ?>
         </div>
     </div>
 </nav>
