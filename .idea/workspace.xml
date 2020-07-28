@@ -19,18 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio problema na exportacao de relatorios">
-      <change beforePath="$PROJECT_DIR$/admin/administrators.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/administrators.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/administratorsadd.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/administratorsadd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/allreserve.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/allreserve.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/languages.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/languages.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/languagesupdate.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/languagesupdate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/students.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/students.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/studentsadd.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/studentsadd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/todaysreservations.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/todaysreservations.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/tomorrowsreservations.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/tomorrowsreservations.php" afterDir="false" />
+    <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio remover about do admin">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eng/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/includes/footer.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +87,7 @@
       <workItem from="1595693589940" duration="389000" />
       <workItem from="1595694316628" duration="7243000" />
       <workItem from="1595787246454" duration="14357000" />
-      <workItem from="1595887271596" duration="1443000" />
+      <workItem from="1595887271596" duration="3010000" />
     </task>
     <task id="LOCAL-00001" summary="@felipesergio iniciando ajustes">
       <created>1595182092894</created>
@@ -371,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595888533762</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="@felipesergio remover about do admin">
+      <created>1595888776965</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1595888776965</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,7 +389,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="@felipesergio retirar dia inteiro" />
     <MESSAGE value="@felipesergio ajustes menu reservas" />
     <MESSAGE value="@felipesergio bug. quando transita entre os idiomas ele sempre retorna para a pagina principal" />
     <MESSAGE value="@felipesergio para inicial direcionando para o idioma em ingles." />
@@ -416,7 +413,8 @@
     <MESSAGE value="@felipesergio correcao de idioma alemao e italiano" />
     <MESSAGE value="@felipesergio exibir reservas ja feitas sob condicao de cancelamento quando houver 4 na mesma semana." />
     <MESSAGE value="@felipesergio problema na exportacao de relatorios" />
-    <option name="LAST_COMMIT_MESSAGE" value="@felipesergio problema na exportacao de relatorios" />
+    <MESSAGE value="@felipesergio remover about do admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="@felipesergio remover about do admin" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595345407406">
@@ -431,13 +429,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595345518608" />
-    <state x="290" y="131" key="Vcs.Push.Dialog.v2" timestamp="1595888537028">
+    <state x="290" y="131" key="Vcs.Push.Dialog.v2" timestamp="1595888776883">
       <screen x="0" y="23" width="1440" height="814" />
     </state>
     <state x="-1091" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@-1366.0.1366.728" timestamp="1595697616962" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1595696185234" />
     <state x="290" y="131" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1595817166286" />
-    <state x="290" y="131" key="Vcs.Push.Dialog.v2/0.23.1440.814@0.23.1440.814" timestamp="1595888537028" />
+    <state x="290" y="131" key="Vcs.Push.Dialog.v2/0.23.1440.814@0.23.1440.814" timestamp="1595888776883" />
     <state x="73" y="167" width="1182" height="544" key="dock-window-1" timestamp="1595096022648">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -1,5 +1,6 @@
 <script type="text/javascript">
     $('.datepicker').datepicker({
+        autoclose: true,
         format: 'dd/mm/yyyy',
         startDate: new Date(Date.now() + 24 * 60 * 60 * 1000),
         endDate: new Date(Date.now() + 8 * 24 * 60 * 60 * 1000),
