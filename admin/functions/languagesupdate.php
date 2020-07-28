@@ -5,7 +5,7 @@ $germany = $_REQUEST['germany'];
 $italy = $_REQUEST['italy'];
 
 require("../connections/conn.php");
-$sql = "update languages set english='$english',germany='$germany',italy='$italy' where id='$id'";
+$sql = "update languages set english=\"$english\",germany=\"$germany\",italy=\"$italy\" where id='$id'";
 if (!mysqli_query($conn,$sql))
 {
     die('Error: ' . mysqli_error($conn));

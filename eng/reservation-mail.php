@@ -11,14 +11,14 @@ require '../phpmailler/src/phpMailer.php';
     $mail = new PHPMailer;
 
     $mail->isSMTP();
-    $mail->Host = 'smtp.gmail.com';
+    $mail->Host = 'mail.khi.fi.it';
     $mail->SMTPAuth = true;
     $mail->SMTPSecure = 'tls';
-    $mail->Username = 'exemplo@gmail.com';
-    $mail->Password = 'senha';
+    $mail->Username = 'proto@khi.fi.it';
+    $mail->Password = 'Cl3matis!';
     $mail->Port = 587;
 
-    $mail->setFrom('email@gmail.com', 'Contato');
+    $mail->setFrom('proto@khi.fi.ti', 'Contato');
     $mail->addAddress('email@mail.com.br');
 
     $mail->isHTML(true);
