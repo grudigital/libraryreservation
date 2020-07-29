@@ -89,7 +89,7 @@ if ($_SESSION['usuarioNome'] == '') {
                     <hr class="mb-4">
                     <div class="container bloco-botoes">
                         <div class="row">
-                            <div class="col"><a href="functions/relatoriododia.php"><button class="btn btn-primary btn-lg btn-block" name="submit" type="submit">Export data</button></a></div>
+                            <div class="col"><a href="functions/reportall.php"><button class="btn btn-primary btn-lg btn-block" name="submit" type="submit">Export data</button></a></div>
                         </div>
                     </div>
                     <div style="height: 20px"></div>
