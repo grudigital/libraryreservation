@@ -100,7 +100,7 @@
                         echo "<div class='mb-3'>";
                         echo "<label for='email'>$row4[0]<span class='text-muted'></span></label>";
                         echo "<input type='email' name='email' class='form-control' id='email' required>";
-                        echo "<div class='invalid-feedback'>Please enter a valid email address for shipping updates.</div>";
+                        echo "<div class='invalid-feedback'>Please enter a valid email address.</div>";
                         echo "</div>";
                         echo "<div class='mb-3'>";
                         echo "<label for='address'>$row5[0]</label>";

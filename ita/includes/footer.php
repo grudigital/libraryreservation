@@ -2,7 +2,7 @@
     $('.datepicker').datepicker({
         autoclose: true,
         format: 'dd/mm/yyyy',
-        startDate: new Date(Date.now() + 24 * 60 * 60 * 1000),
+        startDate: new Date(Date.now() + 72 * 60 * 60 * 1000),
         endDate: new Date(Date.now() + 8 * 24 * 60 * 60 * 1000),
         daysOfWeekDisabled: [0,6],
     });

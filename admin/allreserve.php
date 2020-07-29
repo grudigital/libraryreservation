@@ -102,13 +102,13 @@ if ($_SESSION['usuarioNome'] == '') {
                             <th scope="col">Surname</th>
                             <th scope="col">Date</th>
                             <th scope="col">Period</th>
-                            <th scope="col">Scheduled on</th>
+                            <th scope="col">Email</th>
                         </tr>
                         </thead>
                         <tbody>
                         <?php
                         require ("connections/conn.php");
-                        $sql = "select id, codigo, nome, sobrenome, email, date_format(data, '%d/%m/%Y') as datareserva, periodo, date_format(cadastroem, '%d/%m/%Y') as datacadastro FROM reservas order by data desc";
+                        $sql = "select id, codigo, nome, sobrenome, email, date_format(data, '%d/%m/%Y') as datareserva, periodo, date_format(cadastroem, '%d/%m/%Y') as datacadastro FROM reservas where nome is not NULL order by data desc";
                         $result = mysqli_query($conn, $sql);
                         while($row = mysqli_fetch_assoc($result))
                         {
@@ -118,7 +118,8 @@ if ($_SESSION['usuarioNome'] == '') {
                             echo "<td>$row[sobrenome]</td>";
                             echo "<td>$row[datareserva]</td>";
                             echo "<td>$row[periodo]</td>";
-                            echo "<td>$row[datacadastro]</td>";
+                            //echo "<td>$row[datacadastro]</td>";
+                            echo "<td>$row[email]</td>";
                             echo "</tr>";
 
                         }

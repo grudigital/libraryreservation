@@ -26,7 +26,7 @@ if ($num_rows2 >= '4') {
 
 
 
-        $sql = "INSERT INTO reservas (codigo,cadastroem) VALUES ('$_POST[codigo]',now())";
+       $sql = "INSERT INTO reservas (codigo,cadastroem) VALUES ('$_POST[codigo]',now())";
         if (!mysqli_query($conn, $sql)) {
             die('Error: ' . mysqli_error($conn));
         }
