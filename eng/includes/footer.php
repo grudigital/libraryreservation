@@ -7,7 +7,15 @@
                 <a href="https://vimeo.com/khiflorenz" target="_blank"><img style="float: left" src="../assets/img/vimeo.png"></a>
             </div>
             <div style="font-size:30px; font-weight: bold; margin-top: 25px; color:#424242" class="col-8">
-                Für den Newsletter anmelden
+                <?php
+                require("../admin/connections/conn.php");
+                $sql = "select id, english FROM languages where id=37";
+                $result = mysqli_query($conn, $sql);
+                while ($row = mysqli_fetch_assoc($result)) {
+                    echo "$row[english]";
+                }
+                mysqli_close($conn);
+                ?>
             </div>
         </div>
     </div>
@@ -16,7 +24,17 @@
     <div class="container">
         <div class="row">
             <div style="text-align: center; padding-top:15px; color:#f2f2f2 " class="col-12">
-                Kunsthistorisches Institut in Florenz. All rights reserved
+
+                Kunsthistorisches Institut in Florenz.
+                <?php
+                require("../admin/connections/conn.php");
+                $sql = "select id, english FROM languages where id=38";
+                $result = mysqli_query($conn, $sql);
+                while ($row = mysqli_fetch_assoc($result)) {
+                    echo "$row[english]";
+                }
+                mysqli_close($conn);
+                ?>
             </div>
         </div>
     </div>

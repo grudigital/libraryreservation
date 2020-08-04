@@ -19,57 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio - logotipo no admin">
-      <change afterPath="$PROJECT_DIR$/eng/includes/logotipos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ger/includes/logotipos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ita/includes/logotipos.php" afterDir="false" />
+    <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio - layout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/cancel-reservation-confirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/cancel-reservation-confirm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/cancel-reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/cancel-reservation-step2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/cancel-reservation.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/cancel-reservation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/administrators.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/administrators.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/administratorsadd.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/administratorsadd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/allreserve.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/allreserve.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/languages.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/languages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/languagesupdate.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/languagesupdate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/students.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/students.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/studentsadd.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/studentsadd.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/todaysreservations.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/todaysreservations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/tomorrowsreservations.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/tomorrowsreservations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eng/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/includes/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/includes/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/novo.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/novo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/reservation-cancel-divergent.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/reservation-cancel-divergent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/reservation-confirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/reservation-confirm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/reservation-exceeded-divergent.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/reservation-exceeded-divergent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/reservation-exceeded-period.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/reservation-exceeded-period.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/reservation-exceeded.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/reservation-exceeded.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/reservation-exceeded2.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/reservation-exceeded2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/reservation-step2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/reserve.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/reserve.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/cancel-reservation-confirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/cancel-reservation-confirm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/cancel-reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/cancel-reservation-step2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/cancel-reservation.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/cancel-reservation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ger/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/includes/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/includes/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/reservation-cancel-divergent.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/reservation-cancel-divergent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/reservation-confirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/reservation-confirm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/reservation-exceeded-divergent.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/reservation-exceeded-divergent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/reservation-exceeded-period.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/reservation-exceeded-period.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/reservation-exceeded.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/reservation-exceeded.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/reservation-exceeded2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/reservation-exceeded2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/reservation-step2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/reserve.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/reserve.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/cancel-reservation-confirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/cancel-reservation-confirm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/cancel-reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/cancel-reservation-step2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/cancel-reservation.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/cancel-reservation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ita/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/includes/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/includes/menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/reservation-cancel-divergent.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/reservation-cancel-divergent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/reservation-confirm.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/reservation-confirm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/reservation-exceeded-divergent.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/reservation-exceeded-divergent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/reservation-exceeded-period.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/reservation-exceeded-period.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/reservation-exceeded.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/reservation-exceeded.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/reservation-exceeded2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/reservation-exceeded2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/reservation-step2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/reserve.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/reserve.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +103,7 @@
       <workItem from="1595694316628" duration="7243000" />
       <workItem from="1595787246454" duration="14357000" />
       <workItem from="1595887271596" duration="6736000" />
-      <workItem from="1596564022799" duration="14886000" />
+      <workItem from="1596564022799" duration="18611000" />
     </task>
     <task id="LOCAL-00001" summary="@felipesergio iniciando ajustes">
       <created>1595182092894</created>
@@ -468,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596576281245</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="@felipesergio - layout">
+      <created>1596581079068</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1596581079068</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,7 +461,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="@felipesergio correção de retorno de formato data" />
     <MESSAGE value="@felipesergio titulo da confirmação de cancelamento" />
     <MESSAGE value="@felipesergio bloqueio para nao ocorrer 2 registros no mesmo dia." />
     <MESSAGE value="@felipesergio substituição das bandeiras, ordem dos elementos" />
@@ -513,7 +485,8 @@
     <MESSAGE value="@felipesergio correcao da ordem de validacoes, primeiro vem a validacao de nome e codigo" />
     <MESSAGE value="@felipesergio - novo layout para aprovacao" />
     <MESSAGE value="@felipesergio - logotipo no admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="@felipesergio - logotipo no admin" />
+    <MESSAGE value="@felipesergio - layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="@felipesergio - layout" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595345407406">

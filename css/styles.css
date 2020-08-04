@@ -10179,3 +10179,41 @@ section.resume-section .resume-section-content {
   width:50px !important;
   float:right;
 }
+
+
+
+.menu-novo-admin a{
+  float:left;
+  text-decoration: none;
+  background-color:#fff;
+  height:60px;
+  text-align:center;
+  list-style: none;
+  font-weight: bold;
+}
+
+
+.menu-novo-admin button{
+  height: 100%;
+  border:none;
+  margin-right:15px;
+  background-color: #fff;
+  color:#212121;
+  font-weight: bold;
+}
+
+.menu-novo-admin button:hover{
+  background-color:#424242;
+  color:#ff454c;
+}
+
+.conteudo-projeto {
+  margin-top: -50px;
+}
+.botoes-idioma{
+  float:right;
+}
+.botoes-idioma button{
+  width:50px !important;
+  float:right;
+}
