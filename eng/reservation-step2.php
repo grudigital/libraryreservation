@@ -1,22 +1,25 @@
 <?php include 'includes/header.php' ?>
 <body id="page-top">
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <?php include 'includes/menu.php' ?>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm flags-header">
-                <a href="../ger/reservation-step2.php">DE</a>
-            </div>
-            <div class="col-sm flags-header">
-                <a href="../eng/reservation-step2.php">EN</a>
-            </div>
-            <div class="col-sm flags-header">
-                <a href="../ita/reservation-step2.php">IT</a>
-            </div>
+<?php include 'includes/logotipos.php' ?>
+<div class="container menu-novo">
+    <div class="row">
+        <?php include 'includes/menu.php' ?>
+        <div class="col-2" >
+            <a class="botoes-idioma" href='../ger/reservation-step2.php'>
+                <button>DE</button>
+            </a>
+            <a class="botoes-idioma" href='../eng/reservation-step2.php'>
+                <button>EN</button>
+            </a>
+            <a class="botoes-idioma" href='../ita/reservation-step2.php'>
+                <button>IT</button>
+            </a>
         </div>
     </div>
-</nav>
-<div class="container-fluid p-0">
+</div>
+
+<div style="border-top: solid 1px #dcdcdc;"></div>
+<div class="container conteudo-projeto">
     <section class="resume-section" id="about">
         <div class="resume-section-content">
             <h2 style="margin-bottom: 20px" class="mb-0">

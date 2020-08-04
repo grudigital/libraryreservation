@@ -1,33 +1,30 @@
 <?php include 'includes/header.php' ?>
 <body id="page-top">
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <?php include 'includes/menu.php' ?>
-    <div class="container">
-        <div class="row">
+<?php include 'includes/logotipos.php' ?>
+<div class="container menu-novo">
+    <div class="row">
+        <?php include 'includes/menu.php' ?>
+        <div class="col-2" >
             <?php
-                require("../admin/connections/conn.php");
-                $pegaid = (int)$_GET['codigo'];
-
-
-            echo "<div class='col-sm flags-header'>";
-                echo "<a href='../ger/cancel-reservation-step2.php?codigo=$pegaid'>DE</a>";
-                echo "</div>";
-            echo "<div class='col-sm flags-header'>";
-                echo "<a href='../eng/cancel-reservation-step2.php?codigo=$pegaid'>EN</a>";
-                echo "</div>";
-            echo "<div class='col-sm flags-header'>";
-                echo "<a href='../ita/cancel-reservation-step2.php?codigo=$pegaid'>IT</a>";
-            echo "</div>";
-
-
-                mysqli_close($conn);
-                ?>
-
-
+            require("../admin/connections/conn.php");
+            $pegaid = (int)$_GET['codigo'];
+            echo "<a class='botoes-idioma' href='../ger/cancel-reservation-step2.php?codigo=$pegaid'>";
+                echo "<button>DE</button>";
+                echo "</a>";
+            echo "<a class='botoes-idioma' href='../eng/cancel-reservation-step2.php?codigo=$pegaid'>";
+                echo "<button>EN</button>";
+                echo "</a>";
+            echo "<a class='botoes-idioma' href='../ita/cancel-reservation-step2.php?codigo=$pegaid'>";
+                echo "<button>IT</button>";
+                echo "</a>";
+            mysqli_close($conn);
+            ?>
         </div>
     </div>
-</nav>
-<div class="container-fluid p-0">
+</div>
+
+<div style="border-top: solid 1px #dcdcdc;"></div>
+<div class="container conteudo-projeto">
     <section class="resume-section" id="about">
         <div class="resume-section-content">
             <h2 style="margin-bottom: 20px" class="mb-0">
