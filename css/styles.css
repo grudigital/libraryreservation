@@ -10008,7 +10008,6 @@ body {
 @media (min-width: 992px) {
   body {
     padding-top: 0;
-    padding-left: 17rem;
   }
 }
 h1,
@@ -10138,4 +10137,45 @@ section.resume-section .resume-section-content {
 }
 .flags-header a{
   color:#fff;
+}
+
+.topo-logotipos{
+  margin-top:40px;
+  margin-bottom:40px;
+}
+
+.menu-novo a{
+  float:left;
+  text-decoration: none;
+  background-color:#fff;
+  height:60px;
+  text-align:center;
+  list-style: none;
+  font-weight: bold;
+}
+
+
+.menu-novo button{
+  height: 100%;
+  border:none;
+  width: 240px;
+  background-color: #fff;
+  color:#212121;
+  font-weight: bold;
+}
+
+.menu-novo button:hover{
+  background-color:#424242;
+  color:#ff454c;
+}
+
+.conteudo-projeto {
+  margin-top: -50px;
+}
+.botoes-idioma{
+  float:right;
+}
+.botoes-idioma button{
+  width:50px !important;
+  float:right;
 }

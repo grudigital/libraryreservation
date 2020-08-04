@@ -20,10 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49331e1d-a5d8-42d4-b982-45d394e7f5cb" name="Default Changelist" comment="@felipesergio correcao da ordem de validacoes, primeiro vem a validacao de nome e codigo">
+      <change afterPath="$PROJECT_DIR$/assets/img/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logo-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/logo-oficial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/vimeo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eng/novo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eng/cancel-reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/eng/cancel-reservation-step2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ger/cancel-reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ger/cancel-reservation-step2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ita/cancel-reservation-step2.php" beforeDir="false" afterPath="$PROJECT_DIR$/ita/cancel-reservation-step2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/connections/conn.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/connections/conn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +95,7 @@
       <workItem from="1595694316628" duration="7243000" />
       <workItem from="1595787246454" duration="14357000" />
       <workItem from="1595887271596" duration="6736000" />
+      <workItem from="1596564022799" duration="10146000" />
     </task>
     <task id="LOCAL-00001" summary="@felipesergio iniciando ajustes">
       <created>1595182092894</created>
